@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weavess Vertical Marker renders 1`] = `
+<div>
+  <div
+    class="vertical-marker"
+    data-cy="weavess-static-vertical-marker"
+    data-cy-color="#ff0000"
+    data-cy-left="90"
+    style="left: calc(90% - 0px); width: 1px; background: rgb(255, 0, 0); transform: translateX(-50%);"
+  />
+</div>
+`;

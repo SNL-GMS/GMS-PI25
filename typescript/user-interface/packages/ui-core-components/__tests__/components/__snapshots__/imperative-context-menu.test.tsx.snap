@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`imperative context menu can close ImperativeContextMenu 1`] = `
+<body>
+  <div>
+    <div
+      class="bp4-overlay bp4-overlay-open"
+    >
+      here is my content
+    </div>
+  </div>
+</body>
+`;
+
+exports[`imperative context menu can close ImperativeContextMenu 2`] = `
+<body>
+  <div>
+    <div
+      class="bp4-overlay bp4-overlay-open"
+    >
+      here is my content
+    </div>
+  </div>
+</body>
+`;
+
+exports[`imperative context menu should match the snapshot 1`] = `
+<body>
+  <div>
+    <div>
+      <div
+        class="bp4-context-menu2-virtual-target"
+      />
+      <div
+        class="bp4-context-menu2"
+      >
+        <div />
+      </div>
+    </div>
+  </div>
+  <div
+    class="bp4-portal"
+  />
+</body>
+`;

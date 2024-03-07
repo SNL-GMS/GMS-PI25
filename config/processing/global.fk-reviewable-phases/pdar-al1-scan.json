@@ -1,0 +1,38 @@
+{
+    "name": "pdar-al1-scan",
+    "constraints": [
+        {
+            "constraintType": "STRING",
+            "criterion": "station",
+            "operator": {
+                "type": "EQ",
+                "negated": false
+            },
+            "value": [
+                "PDAR"
+            ],
+            "priority": 100
+        },
+        {
+            "constraintType": "STRING",
+            "criterion": "activity",
+            "operator": {
+                "type": "EQ",
+                "negated": false
+            },
+            "value": [
+                "AL1 Scan"
+            ],
+            "priority": 100
+        }
+    ],
+    "parameters": {
+        "phases": [
+            "P",
+            "Pg",
+            "I",
+            "sP",
+            "L"
+        ]
+    }
+}

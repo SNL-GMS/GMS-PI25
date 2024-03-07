@@ -1,0 +1,19 @@
+18 62.4931000 -114.6062000
+YKB0  SHZ                     
+YKB1  SHZ                     
+YKB2  SHZ                     
+YKB3  SHZ                     
+YKB4  SHZ                     
+YKB6  SHZ                     
+YKB7  SHZ                     
+YKB8  SHZ                     
+YKB9  SHZ                     
+YKR1  SHZ                     
+YKR2  SHZ                     
+YKR3  SHZ                     
+YKR4  SHZ                     
+YKR5  SHZ                     
+YKR6  SHZ                     
+YKR7  SHZ                     
+YKR8  SHZ                     
+YKR9  SHZ                     

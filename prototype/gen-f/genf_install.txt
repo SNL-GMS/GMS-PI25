@@ -1,0 +1,75 @@
+#################################
+# Get your user account set up
+#################################
+
+
+### Set proxies, enter at command line or in ~/.bashrc
+
+### (Not necessary if copied .bashrc)
+### Find where you conda is sourced from
+> which conda
+
+### (Not necessary if copied .bashrc)
+### If it's not /apps/anaconda/4.3.1/anaconda3/bin
+> source /apps/anaconda/4.3.1/anaconda3/bin/activate
+
+### If not exist, create ~/.condarc
+> touch ~/.condarc
+
+### Populate ~/.condarc with the following
+### Add lines if pkgs_dirs and envs_dirs already exists
+
+pkgs_dirs:
+   - /apps/gms-common-apps/gen-f/2.2.0/.conda/pkgs/
+
+envs_dirs:
+   - /apps/gms-common-apps/gen-f/2.2.0/.conda/envs/
+
+ssl_verify: true
+channels:
+  - anaconda-fusion
+  - defaults
+
+#################################
+# Transfer prototype
+#################################
+> tar -cf gen-f-2.2.tar gen-f
+
+#################################
+# Get ready for install
+#################################
+
+### Move package to final location
+> mkdir /apps/gms-common-apps/gen-f/2.2.0
+> cp gen-f-2.2.tar /apps/gms-common-apps/gen-f/2.2.0
+
+### Create necessary conda directories
+> mkdir /apps/gms-common-apps/genf/2.2.0/.conda
+> mkdir /apps/gms-common-apps/genf/2.2.0/.conda/pkgs/
+> mkdir /apps/gms-common-apps/genf/2.2.0/.conda/envs/
+
+### Uncompress prototype
+> tar cvf gen-f-2.2.tar
+
+### Rename unpacked directory if necessary
+mv <exiting-directory-name>/ gen-f-2.2.0/
+
+#################################
+# Installation
+#################################
+
+### cd into directory
+> cd  /apps/gms-common-apps/gen-f/2.2.0/gen-f-2.2.0
+
+### Edit .yml file so you don't overwrite the exiting conda environments.
+### Rename the conda environment. Use text editor or following command
+sed -i -e 's/name: genf/name: genf22/' environment.yml
+
+### Create conda environment
+> conda env create -f environment.yml
+
+### Activate conda environment
+> conda activate genf22
+
+### Install moment tensor python package in conda environment
+> pip install -e . 

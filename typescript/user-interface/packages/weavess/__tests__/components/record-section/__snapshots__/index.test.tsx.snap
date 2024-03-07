@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weavess Record Section Record Section can be shallow rendered 1`] = `
+<div
+  className="record-section-container"
+  style={
+    {
+      "height": "100%",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <canvas
+    style={
+      {
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 0,
+      }
+    }
+  />
+  <RecordSectionLabels
+    bottomVal={0}
+    phases={[]}
+    topVal={0}
+  />
+  <div
+    className="record-section"
+    style={
+      {
+        "alignItems": "center",
+        "fontFamily": "sans-serif",
+        "fontSize": "large",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;

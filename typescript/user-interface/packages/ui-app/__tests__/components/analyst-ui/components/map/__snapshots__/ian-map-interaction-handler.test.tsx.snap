@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IanMapInteractionHandler can create a mouse move handler 1`] = `
+{
+  "rerender": [Function],
+  "result": {
+    "current": <IanMapInteractionHandler
+      viewer={
+        {
+          "entities": {
+            "add": [MockFunction],
+            "getById": [MockFunction],
+          },
+          "scene": {
+            "pickPosition": [MockFunction],
+          },
+        }
+      }
+    />,
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`IanMapInteractionHandler can handle an undefined viewer 1`] = `
+{
+  "rerender": [Function],
+  "result": {
+    "current": <IanMapInteractionHandler />,
+  },
+  "unmount": [Function],
+}
+`;

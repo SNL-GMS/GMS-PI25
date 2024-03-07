@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`history stack can get correct history 1`] = `
+{
+  "current": [
+    [
+      {
+        "changes": [
+          {
+            "description": "desc 1",
+            "historyId": "1",
+            "id": "e1",
+            "isApplied": true,
+            "isAssociated": undefined,
+            "isAssociatedToOther": true,
+            "isCompleted": false,
+            "isConflictCreated": false,
+            "isConflictResolved": true,
+            "isDeletion": false,
+            "isIncluded": true,
+            "isRejection": false,
+            "isRelatedToEvent": false,
+            "isUnAssociated": false,
+            "label": "label 1",
+            "type": "undo",
+          },
+          {
+            "description": "desc 1",
+            "historyId": "1",
+            "id": "s1",
+            "isApplied": true,
+            "isAssociated": undefined,
+            "isAssociatedToOther": true,
+            "isCompleted": false,
+            "isConflictCreated": false,
+            "isConflictResolved": false,
+            "isDeletion": false,
+            "isIncluded": true,
+            "isRejection": false,
+            "isRelatedToEvent": false,
+            "isUnAssociated": false,
+            "label": "label 1",
+            "type": "undo",
+          },
+        ],
+        "description": "desc 1",
+        "historyId": "1",
+        "id": "h1",
+        "isApplied": true,
+        "isAssociated": false,
+        "isAssociatedToOther": true,
+        "isCompleted": false,
+        "isConflictCreated": false,
+        "isConflictResolved": true,
+        "isDeletion": false,
+        "isIncluded": true,
+        "isRejection": false,
+        "isRelatedToEvent": false,
+        "isUnAssociated": false,
+        "label": "label 1",
+        "type": "undo",
+      },
+      {
+        "changes": [
+          {
+            "description": "desc 2",
+            "historyId": "2",
+            "id": "e2",
+            "isApplied": true,
+            "isAssociated": undefined,
+            "isAssociatedToOther": true,
+            "isCompleted": false,
+            "isConflictCreated": true,
+            "isConflictResolved": false,
+            "isDeletion": false,
+            "isIncluded": true,
+            "isRejection": false,
+            "isRelatedToEvent": false,
+            "isUnAssociated": false,
+            "label": "label 2",
+            "type": "undo",
+          },
+          {
+            "description": "desc 2",
+            "historyId": "2",
+            "id": "s2",
+            "isApplied": true,
+            "isAssociated": undefined,
+            "isAssociatedToOther": true,
+            "isCompleted": false,
+            "isConflictCreated": true,
+            "isConflictResolved": false,
+            "isDeletion": false,
+            "isIncluded": true,
+            "isRejection": false,
+            "isRelatedToEvent": false,
+            "isUnAssociated": false,
+            "label": "label 2",
+            "type": "undo",
+          },
+          {
+            "description": "desc 2",
+            "historyId": "2",
+            "id": "s2",
+            "isApplied": true,
+            "isAssociated": undefined,
+            "isAssociatedToOther": true,
+            "isCompleted": false,
+            "isConflictCreated": true,
+            "isConflictResolved": false,
+            "isDeletion": true,
+            "isIncluded": true,
+            "isRejection": true,
+            "isRelatedToEvent": false,
+            "isUnAssociated": false,
+            "label": "label 2",
+            "type": "undo",
+          },
+        ],
+        "description": "desc 2",
+        "historyId": "2",
+        "id": "h2",
+        "isApplied": true,
+        "isAssociated": false,
+        "isAssociatedToOther": true,
+        "isCompleted": false,
+        "isConflictCreated": true,
+        "isConflictResolved": false,
+        "isDeletion": true,
+        "isIncluded": true,
+        "isRejection": true,
+        "isRelatedToEvent": false,
+        "isUnAssociated": false,
+        "label": "label 2",
+        "type": "undo",
+      },
+    ],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    false,
+    false,
+    -1,
+    0,
+    false,
+  ],
+}
+`;
+
+exports[`history stack can render history stack 1`] = `
+<div>
+  <div
+    class="list list--history"
+  >
+    <li
+      class="list__row entry-row
+      
+      action-indicator-top "
+    >
+      <div
+        class="list__column list__column--meta-container
+        bottom
+        move-up
+        "
+      >
+        <span
+          class="action-indicator__text"
+        >
+          REDO
+        </span>
+        <span
+          class="action-indicator__text"
+        />
+      </div>
+      <div
+        class="history-row--multi"
+      >
+        <div
+          class="list__column history-entry history-entry--undo is-applied is-included is-associated-to-other is-conflict-resolved"
+          tabindex="0"
+        >
+          <span
+            class="history-entry__label"
+          >
+            label 1:
+          </span>
+          <span
+            class="history-entry__description"
+          >
+            desc 1
+          </span>
+          <span
+            class="bp4-popover2-target"
+          >
+            <span
+              aria-hidden="true"
+              class="bp4-icon bp4-icon-issue-closed bp4-intent-success history-entry__icon"
+              icon="issue-closed"
+              tabindex="0"
+            >
+              <svg
+                data-icon="issue-closed"
+                height="16"
+                role="img"
+                viewBox="0 0 16 16"
+                width="16"
+              >
+                <path
+                  d="M9.296.104a2.99 2.99 0 00-1.003.664 2.987 2.987 0 00-.75 1.25 6 6 0 106.28 4.527c.043-.039.085-.079.127-.12l1.456-1.456A8 8 0 119.296.105zm2.532 5.2a.997.997 0 01-.707-.294L9.707 3.596a1 1 0 011.414-1.414l.707.707 1.768-1.768a1 1 0 111.414 1.415L12.536 5.01a.997.997 0 01-.708.293zM9 12H7v-2h2v2zm0-3H7V4h2v5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </span>
+          <span
+            class="bp4-popover2-target"
+          >
+            <span
+              aria-hidden="true"
+              class="bp4-icon bp4-icon-undo history-entry__icon"
+              icon="undo"
+              tabindex="0"
+            >
+              <svg
+                data-icon="undo"
+                height="16"
+                role="img"
+                viewBox="0 0 16 16"
+                width="16"
+              >
+                <path
+                  d="M4 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm7-7H3.41L4.7 2.71c.19-.18.3-.43.3-.71a1.003 1.003 0 00-1.71-.71l-3 3C.11 4.47 0 4.72 0 5c0 .28.11.53.29.71l3 3a1.003 1.003 0 001.42-1.42L3.41 6H11c1.66 0 3 1.34 3 3s-1.34 3-3 3H7v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+        <div
+          class="history-row__child-container "
+        />
+        <div
+          class="toggle-button
+          toggle-button--undo"
+        >
+          <span
+            aria-hidden="true"
+            class="bp4-icon bp4-icon-chevron-down"
+            icon="chevron-down"
+          >
+            <svg
+              data-icon="chevron-down"
+              height="16"
+              role="img"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <path
+                d="M12 5c-.28 0-.53.11-.71.29L8 8.59l-3.29-3.3a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.29l4-4A1.003 1.003 0 0012 5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </li>
+    <li
+      class="list__row entry-row
+      
+      "
+    >
+      <div
+        class="list__column list__column--meta-container
+        
+        
+        "
+      >
+        <span
+          class="action-indicator__text"
+        />
+        <span
+          class="action-indicator__text"
+        />
+      </div>
+      <div
+        class="history-row--multi"
+      >
+        <div
+          class="list__column history-entry history-entry--undo is-applied is-included is-associated-to-other is-conflict-created is-deletion is-rejection"
+          tabindex="0"
+        >
+          <span
+            class="history-entry__label"
+          >
+            label 2:
+          </span>
+          <span
+            class="history-entry__description"
+          >
+            desc 2
+          </span>
+          <span
+            class="bp4-popover2-target"
+          >
+            <span
+              aria-hidden="true"
+              class="bp4-icon bp4-icon-issue bp4-intent-danger history-entry__icon"
+              icon="issue"
+              tabindex="0"
+            >
+              <svg
+                data-icon="issue"
+                height="16"
+                role="img"
+                viewBox="0 0 16 16"
+                width="16"
+              >
+                <path
+                  d="M8 16A8 8 0 118 0a8 8 0 010 16zm0-2A6 6 0 108 2a6 6 0 000 12zm1-2H7v-2h2v2zm0-3H7V4h2v5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </span>
+          <span
+            class="bp4-popover2-target"
+          >
+            <span
+              aria-hidden="true"
+              class="bp4-icon bp4-icon-undo history-entry__icon"
+              icon="undo"
+              tabindex="0"
+            >
+              <svg
+                data-icon="undo"
+                height="16"
+                role="img"
+                viewBox="0 0 16 16"
+                width="16"
+              >
+                <path
+                  d="M4 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm7-7H3.41L4.7 2.71c.19-.18.3-.43.3-.71a1.003 1.003 0 00-1.71-.71l-3 3C.11 4.47 0 4.72 0 5c0 .28.11.53.29.71l3 3a1.003 1.003 0 001.42-1.42L3.41 6H11c1.66 0 3 1.34 3 3s-1.34 3-3 3H7v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+        <div
+          class="history-row__child-container "
+        />
+        <div
+          class="toggle-button
+          toggle-button--undo"
+        >
+          <span
+            aria-hidden="true"
+            class="bp4-icon bp4-icon-chevron-down"
+            icon="chevron-down"
+          >
+            <svg
+              data-icon="chevron-down"
+              height="16"
+              role="img"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <path
+                d="M12 5c-.28 0-.53.11-.71.29L8 8.59l-3.29-3.3a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.29l4-4A1.003 1.003 0 0012 5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </li>
+  </div>
+</div>
+`;

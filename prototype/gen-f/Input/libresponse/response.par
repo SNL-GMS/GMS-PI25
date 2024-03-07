@@ -1,0 +1,38 @@
+SCHEMA = css
+Tables = sitechan:xxx_static, sensor:xxx_static, instrument:xxx_static
+ORACLE_HOME_PATH = /app/client/xxx/product/12.2.0/client_1
+TNS_ADMIN_PATH = /app/client/xxx/product/12.2.0/client_1/network/admin
+DB_PASSWORD = XXX_GMS:pwd@dwpr2
+
+
+# Stat name           Start time                 End time
+IM.ARA1.00.sz        2010-01-22T00:00:00        2010-01-31T00:00:00
+
+
+# If database archive is mounted, provide the name of the volume. If unsure what volume name is, cd to the /Volumes
+# directory
+# If database is not being mounted, path will automatically be retrieved from database
+
+MOUNT_ARCHIVE = responses
+#MOUNT_ARCHIVE = responses_mt
+
+# If not building a frequency axis, enter in a desired frequency axis as a list of comma-separated values
+# or write "default".
+# If list of csvs is entered, use \ to continue line. Also add \ to final line (indicates line is to be read).
+# If "default" is entered, a linear frequency axis ranging from 0.0001 to 100 Hz will be generated with a sampling rate
+# of 40 Hz
+# Enter NA if choosing to build a frequency axis
+
+Freq_axis = NA
+
+#If building a frequency axis, fill out the desired parameters below. If the Freq_axis parameter is assigned (not blank)
+#these parameters will be ignored
+
+#If log scale is true, generate a logarithmic frequency axis; else make a linear frequency axis
+#If max freq is set to NA, set maximum frequency equal to the sampling rate read in from the database
+
+Log_scale = False
+Max_freq = 10
+Min_freq = 0.1
+Num_freq_bins = 500
+

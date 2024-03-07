@@ -1,0 +1,33 @@
+.create-event {
+  &__dialog {
+    max-width: 90%;
+  }
+
+  &__dialog-body {
+    padding: 8px 12px 8px 12px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px 0;
+    overflow: inherit;
+  }
+}
+
+.create-event__error {
+  color: #ffffff;
+  justify-content: right;
+  padding: 0.25em 0.5em;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: fit-content;
+}
+
+.create-event__error > [icon*='error'] {
+  color: #fd0200;
+}
+.create-event__error-text {
+  margin-left: 5px;
+  line-height: 12px;
+}

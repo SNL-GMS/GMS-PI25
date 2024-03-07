@@ -1,0 +1,2222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarLineChartPanel renders BarLineChartPanel undefined data 1`] = `
+<div>
+  <div
+    class="legend-and-charts"
+    data-cy="bar-chart"
+  >
+    <div
+      class="core-chart table-display"
+    >
+      <div
+        class="VictoryContainer"
+        style="height: -98px; width: 100%; user-select: none; pointer-events: none; position: relative;"
+      >
+        <svg
+          height="-98"
+          role="img"
+          style="pointer-events: all; width: 100%; height: 100%;"
+          viewBox="0 0 100 -98"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="71"
+              x2="71"
+              y1="16"
+              y2="-218"
+            />
+            <text
+              direction="inherit"
+              dx="0"
+              id="chart-undefined-1-axisLabel-0"
+              transform="rotate(-90,111,-101)"
+              x="111"
+              y="-89.03"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 40px; fill: var(--core-prominent); stroke: transparent;"
+                text-anchor="middle"
+                x="111"
+              >
+                Average Lag (s)
+              </tspan>
+            </text>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-182.89648964901755"
+                y2="-182.89648964901755"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-187.24648964901755"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-0"
+                  x="85"
+                  y="-179.34648964901754"
+                >
+                  <title>
+                    10
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    10
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-147.7929792980351"
+                y2="-147.7929792980351"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-152.1429792980351"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-1"
+                  x="85"
+                  y="-144.2429792980351"
+                >
+                  <title>
+                    20
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    20
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-112.68946894705267"
+                y2="-112.68946894705267"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-117.03946894705267"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-2"
+                  x="85"
+                  y="-109.13946894705268"
+                >
+                  <title>
+                    30
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    30
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-77.58595859607021"
+                y2="-77.58595859607021"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-81.93595859607021"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-3"
+                  x="85"
+                  y="-74.03595859607022"
+                >
+                  <title>
+                    40
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    40
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-42.48244824508779"
+                y2="-42.48244824508779"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-46.83244824508779"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-4"
+                  x="85"
+                  y="-38.93244824508779"
+                >
+                  <title>
+                    50
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    50
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-7.378937894105341"
+                y2="-7.378937894105341"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-11.728937894105343"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-5"
+                  x="85"
+                  y="-3.8289378941053416"
+                >
+                  <title>
+                    60
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    60
+                  </tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+          <g
+            clip-path="url(#victory-clip-6)"
+            style="border: 1px solid #ffffff; width: 100%; height: 100%;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-6"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+          </g>
+          <g
+            clip-path="url(#victory-clip-7)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-7"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M53.66666666666667,-214.48964896490176L35,-214.48964896490176"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #be8c0b; stroke-width: 2;"
+            />
+          </g>
+          <g
+            clip-path="url(#victory-clip-8)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-8"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M53.66666666666667,-182.89648964901755L35,-182.89648964901755"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #d24c4c; stroke-width: 2;"
+            />
+          </g>
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+        >
+          <svg
+            height="-98"
+            style="overflow: visible; width: 100%; height: 100%;"
+            viewBox="0 0 100 -98"
+            width="100"
+          />
+        </div>
+      </div>
+      <div
+        class="VictoryContainer"
+        style="user-select: none; pointer-events: none; position: relative; width: 100px; height: 110px;"
+      >
+        <svg
+          height="110"
+          role="img"
+          style="pointer-events: all; width: 100px; height: 110px;"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="14"
+              x2="80"
+              y1="80"
+              y2="80"
+            />
+            <g
+              role="presentation"
+            >
+              <text
+                direction="inherit"
+                dx="0"
+                id="chart-axis-0-tickLabels-0"
+                x="47"
+                y="105.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 10px; fill: none; stroke: transparent;"
+                  text-anchor="middle"
+                  x="47"
+                >
+                  channel name
+                </tspan>
+              </text>
+            </g>
+          </g>
+          <g
+            role="presentation"
+          >
+            <path
+              d="M 47, 80 
+A 0 0 0 0 1, 47, 80 
+L 47, 1.2001066806988092e-10 
+A 0 0 0 0 1, 47, 1.2001066806988092e-10 
+L 57, 1.2001066806988092e-10 
+A 0 0 0 0 1, 57, 1.2001066806988092e-10 
+L 57, 80 
+A 0 0 0 0 1, 57, 80 
+ z"
+              index="0"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); stroke: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); width: 10px; padding: 8px; stroke-width: 0;"
+            />
+          </g>
+          <rect
+            cursor="move"
+            height="80"
+            style="fill: #fff; opacity: 0.3;"
+            vector-effect="non-scaling-stroke"
+            width="141428559726.7198"
+            x="-471428532375.39966"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-471428532379.39966"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-329999972652.6799"
+            y="0"
+          />
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100px; height: 110px;"
+        >
+          <svg
+            height="110"
+            style="overflow: visible; width: 100px; height: 110px;"
+            width="100"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="bp4-non-ideal-state bp4-non-ideal-state-vertical"
+    >
+      <div
+        class="bp4-non-ideal-state-text"
+      >
+        <h4
+          class="bp4-heading"
+        >
+          Data Error
+        </h4>
+        <div>
+          Cannot read properties of undefined (reading 'length')
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BarLineChartPanel renders BarLineChartPanel with duration data 1`] = `
+<div>
+  <div
+    class="legend-and-charts"
+    data-cy="bar-chart"
+  >
+    <div
+      class="core-chart table-display"
+    >
+      <div
+        class="VictoryContainer"
+        style="height: -98px; width: 100%; user-select: none; pointer-events: none; position: relative;"
+      >
+        <svg
+          height="-98"
+          role="img"
+          style="pointer-events: all; width: 100%; height: 100%;"
+          viewBox="0 0 100 -98"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="71"
+              x2="71"
+              y1="16"
+              y2="-218"
+            />
+            <text
+              direction="inherit"
+              dx="0"
+              id="chart-undefined-1-axisLabel-0"
+              transform="rotate(-90,111,-101)"
+              x="111"
+              y="-89.03"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 40px; fill: var(--core-prominent); stroke: transparent;"
+                text-anchor="middle"
+                x="111"
+              >
+                Average Lag (s)
+              </tspan>
+            </text>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-175.45454545454544"
+                y2="-175.45454545454544"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="13.546875"
+                  x="93"
+                  y="-179.80454545454543"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-0"
+                  x="85"
+                  y="-171.90454545454543"
+                >
+                  <title>
+                    2
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    2
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-132.9090909090909"
+                y2="-132.9090909090909"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="13.546875"
+                  x="93"
+                  y="-137.2590909090909"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-1"
+                  x="85"
+                  y="-129.3590909090909"
+                >
+                  <title>
+                    4
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    4
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-90.36363636363637"
+                y2="-90.36363636363637"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="13.546875"
+                  x="93"
+                  y="-94.71363636363637"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-2"
+                  x="85"
+                  y="-86.81363636363638"
+                >
+                  <title>
+                    6
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    6
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-47.81818181818181"
+                y2="-47.81818181818181"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="13.546875"
+                  x="93"
+                  y="-52.168181818181814"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-3"
+                  x="85"
+                  y="-44.268181818181816"
+                >
+                  <title>
+                    8
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    8
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-5.272727272727279"
+                y2="-5.272727272727279"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-9.622727272727278"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-4"
+                  x="85"
+                  y="-1.7227272727272789"
+                >
+                  <title>
+                    10
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    10
+                  </tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+          <g
+            clip-path="url(#victory-clip-55)"
+            style="border: 1px solid #ffffff; width: 100%; height: 100%;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-55"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+          </g>
+          <g
+            clip-path="url(#victory-clip-56)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-56"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M53.66666666666667,-196.72727272727272L35,-196.72727272727272"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #be8c0b; stroke-width: 2;"
+            />
+          </g>
+          <g
+            clip-path="url(#victory-clip-57)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-57"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M53.66666666666667,-5.272727272727279L35,-5.272727272727279"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #d24c4c; stroke-width: 2;"
+            />
+          </g>
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+        >
+          <svg
+            height="-98"
+            style="overflow: visible; width: 100%; height: 100%;"
+            viewBox="0 0 100 -98"
+            width="100"
+          />
+        </div>
+      </div>
+      <div
+        class="VictoryContainer"
+        style="user-select: none; pointer-events: none; position: relative; width: 100px; height: 110px;"
+      >
+        <svg
+          height="110"
+          role="img"
+          style="pointer-events: all; width: 100px; height: 110px;"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="14"
+              x2="80"
+              y1="80"
+              y2="80"
+            />
+            <g
+              role="presentation"
+            >
+              <text
+                direction="inherit"
+                dx="0"
+                id="chart-axis-0-tickLabels-0"
+                x="47"
+                y="105.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 10px; fill: none; stroke: transparent;"
+                  text-anchor="middle"
+                  x="47"
+                >
+                  channel name
+                </tspan>
+              </text>
+            </g>
+          </g>
+          <g
+            role="presentation"
+          >
+            <path
+              d="M 47, 80 
+A 0 0 0 0 1, 47, 80 
+L 47, 1.311475372745008e-9 
+A 0 0 0 0 1, 47, 1.311475372745008e-9 
+L 57, 1.311475372745008e-9 
+A 0 0 0 0 1, 57, 1.311475372745008e-9 
+L 57, 80 
+A 0 0 0 0 1, 57, 80 
+ z"
+              index="0"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); stroke: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); width: 10px; padding: 8px; stroke-width: 0;"
+            />
+          </g>
+          <rect
+            cursor="move"
+            height="80"
+            style="fill: #fff; opacity: 0.3;"
+            vector-effect="non-scaling-stroke"
+            width="141428559726.7198"
+            x="-471428532375.39966"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-471428532379.39966"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-329999972652.6799"
+            y="0"
+          />
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100px; height: 110px;"
+        >
+          <svg
+            height="110"
+            style="overflow: visible; width: 100px; height: 110px;"
+            width="100"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="core-chart table-display"
+    >
+      <div
+        class="weavess-line-chart container"
+        style="height: 12px; width: 100px;"
+      >
+        <div
+          class="weavess-line-chart inner"
+        >
+          <div
+            class="weavess-line-chart chart"
+          >
+            <div
+              class="weavess"
+              data-cy="weavess-container"
+              data-end-time="1606818300"
+              data-start-time="1606818240"
+              style="--weavess-background-color: #182026;"
+            >
+              <div
+                class="horizontal-divider__bottom weavess-waveform-display"
+                data-cy="weavess-waveform-display"
+                style="height: 100%;"
+              />
+              <div
+                class="Toastify"
+                id="Weavess-Toast-Container"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BarLineChartPanel renders BarLineChartPanel with percent data 1`] = `
+<div>
+  <div
+    class="legend-and-charts"
+    data-cy="bar-chart"
+  >
+    <div
+      class="core-chart table-display"
+    >
+      <div
+        class="VictoryContainer"
+        style="height: -98px; width: 100%; user-select: none; pointer-events: none; position: relative;"
+      >
+        <svg
+          height="-98"
+          role="img"
+          style="pointer-events: all; width: 100%; height: 100%;"
+          viewBox="0 0 100 -98"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="71"
+              x2="71"
+              y1="16"
+              y2="-218"
+            />
+            <text
+              direction="inherit"
+              dx="0"
+              id="chart-undefined-1-axisLabel-0"
+              transform="rotate(-90,111,-101)"
+              x="111"
+              y="-89.03"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 40px; fill: var(--core-prominent); stroke: transparent;"
+                text-anchor="middle"
+                x="111"
+              >
+                Average Lag (s)
+              </tspan>
+            </text>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-182.89648964901755"
+                y2="-182.89648964901755"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-187.24648964901755"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-0"
+                  x="85"
+                  y="-179.34648964901754"
+                >
+                  <title>
+                    10
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    10
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-147.7929792980351"
+                y2="-147.7929792980351"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-152.1429792980351"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-1"
+                  x="85"
+                  y="-144.2429792980351"
+                >
+                  <title>
+                    20
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    20
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-112.68946894705267"
+                y2="-112.68946894705267"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-117.03946894705267"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-2"
+                  x="85"
+                  y="-109.13946894705268"
+                >
+                  <title>
+                    30
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    30
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-77.58595859607021"
+                y2="-77.58595859607021"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-81.93595859607021"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-3"
+                  x="85"
+                  y="-74.03595859607022"
+                >
+                  <title>
+                    40
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    40
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-42.48244824508779"
+                y2="-42.48244824508779"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-46.83244824508779"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-4"
+                  x="85"
+                  y="-38.93244824508779"
+                >
+                  <title>
+                    50
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    50
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-7.378937894105341"
+                y2="-7.378937894105341"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-11.728937894105343"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-5"
+                  x="85"
+                  y="-3.8289378941053416"
+                >
+                  <title>
+                    60
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    60
+                  </tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+          <g
+            clip-path="url(#victory-clip-21)"
+            style="border: 1px solid #ffffff; width: 100%; height: 100%;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-21"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+          </g>
+          <g
+            clip-path="url(#victory-clip-22)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-22"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M53.66666666666667,-214.48964896490176L35,-214.48964896490176"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #be8c0b; stroke-width: 2;"
+            />
+          </g>
+          <g
+            clip-path="url(#victory-clip-23)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-23"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M53.66666666666667,-182.89648964901755L35,-182.89648964901755"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #d24c4c; stroke-width: 2;"
+            />
+          </g>
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+        >
+          <svg
+            height="-98"
+            style="overflow: visible; width: 100%; height: 100%;"
+            viewBox="0 0 100 -98"
+            width="100"
+          />
+        </div>
+      </div>
+      <div
+        class="VictoryContainer"
+        style="user-select: none; pointer-events: none; position: relative; width: 100px; height: 110px;"
+      >
+        <svg
+          height="110"
+          role="img"
+          style="pointer-events: all; width: 100px; height: 110px;"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="14"
+              x2="80"
+              y1="80"
+              y2="80"
+            />
+            <g
+              role="presentation"
+            >
+              <text
+                direction="inherit"
+                dx="0"
+                id="chart-axis-0-tickLabels-0"
+                x="47"
+                y="105.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 10px; fill: none; stroke: transparent;"
+                  text-anchor="middle"
+                  x="47"
+                >
+                  channel name
+                </tspan>
+              </text>
+            </g>
+          </g>
+          <g
+            role="presentation"
+          >
+            <path
+              d="M 47, 80 
+A 0 0 0 0 1, 47, 80 
+L 47, 1.2001066806988092e-10 
+A 0 0 0 0 1, 47, 1.2001066806988092e-10 
+L 57, 1.2001066806988092e-10 
+A 0 0 0 0 1, 57, 1.2001066806988092e-10 
+L 57, 80 
+A 0 0 0 0 1, 57, 80 
+ z"
+              index="0"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); stroke: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); width: 10px; padding: 8px; stroke-width: 0;"
+            />
+          </g>
+          <rect
+            cursor="move"
+            height="80"
+            style="fill: #fff; opacity: 0.3;"
+            vector-effect="non-scaling-stroke"
+            width="141428559726.7198"
+            x="-471428532375.39966"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-471428532379.39966"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-329999972652.6799"
+            y="0"
+          />
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100px; height: 110px;"
+        >
+          <svg
+            height="110"
+            style="overflow: visible; width: 100px; height: 110px;"
+            width="100"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="core-chart table-display"
+    >
+      <div
+        class="weavess-line-chart container"
+        style="height: 12px; width: 100px;"
+      >
+        <div
+          class="weavess-line-chart inner"
+        >
+          <div
+            class="weavess-line-chart chart"
+          >
+            <div
+              class="weavess"
+              data-cy="weavess-container"
+              data-end-time="1606818300"
+              data-start-time="1606818240"
+              style="--weavess-background-color: #182026;"
+            >
+              <div
+                class="horizontal-divider__bottom weavess-waveform-display"
+                data-cy="weavess-waveform-display"
+                style="height: 100%;"
+              />
+              <div
+                class="Toastify"
+                id="Weavess-Toast-Container"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BarLineChartPanel renders non-ideal state when all data is Unknown 1`] = `
+<div>
+  <div
+    class="bp4-non-ideal-state bp4-non-ideal-state-vertical"
+  >
+    <div
+      class="bp4-non-ideal-state-text"
+    >
+      <h4
+        class="bp4-heading"
+      >
+        Data is Unknown
+      </h4>
+      <div>
+        All data returned is Unknown
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BarLineChartPanel renders tooltip as Unknown 1`] = `
+<div>
+  <div
+    class="legend-and-charts"
+    data-cy="bar-chart"
+  >
+    <div
+      class="core-chart table-display"
+    >
+      <div
+        class="VictoryContainer"
+        style="height: -98px; width: 100%; user-select: none; pointer-events: none; position: relative;"
+      >
+        <svg
+          height="-98"
+          role="img"
+          style="pointer-events: all; width: 100%; height: 100%;"
+          viewBox="0 0 100 -98"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: black;"
+              vector-effect="non-scaling-stroke"
+            />
+          </g>
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="71"
+              x2="71"
+              y1="16"
+              y2="-218"
+            />
+            <text
+              direction="inherit"
+              dx="0"
+              id="chart-undefined-1-axisLabel-0"
+              transform="rotate(-90,111,-101)"
+              x="111"
+              y="-89.03"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 40px; fill: var(--core-prominent); stroke: transparent;"
+                text-anchor="middle"
+                x="111"
+              >
+                Average Lag (s)
+              </tspan>
+            </text>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-182.89648964901755"
+                y2="-182.89648964901755"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-187.24648964901755"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-0"
+                  x="85"
+                  y="-179.34648964901754"
+                >
+                  <title>
+                    10
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    10
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-147.7929792980351"
+                y2="-147.7929792980351"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-152.1429792980351"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-1"
+                  x="85"
+                  y="-144.2429792980351"
+                >
+                  <title>
+                    20
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    20
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-112.68946894705267"
+                y2="-112.68946894705267"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-117.03946894705267"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-2"
+                  x="85"
+                  y="-109.13946894705268"
+                >
+                  <title>
+                    30
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    30
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-77.58595859607021"
+                y2="-77.58595859607021"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-81.93595859607021"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-3"
+                  x="85"
+                  y="-74.03595859607022"
+                >
+                  <title>
+                    40
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    40
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-42.48244824508779"
+                y2="-42.48244824508779"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-46.83244824508779"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-4"
+                  x="85"
+                  y="-38.93244824508779"
+                >
+                  <title>
+                    50
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    50
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--core-main); stroke-width: 1; size: 4px;"
+                vector-effect="non-scaling-stroke"
+                x1="71"
+                x2="75"
+                y1="-7.378937894105341"
+                y2="-7.378937894105341"
+              />
+              <g>
+                <rect
+                  height="17"
+                  style="opacity: 0;"
+                  vector-effect="non-scaling-stroke"
+                  width="19.09375"
+                  x="93"
+                  y="-11.728937894105343"
+                />
+                <text
+                  direction="inherit"
+                  dx="6"
+                  id="chart-undefined-1-tickLabels-5"
+                  x="85"
+                  y="-3.8289378941053416"
+                >
+                  <title>
+                    60
+                  </title>
+                  <tspan
+                    dx="6"
+                    dy="4"
+                    style="font-size: 10px; font-family: var(--core-sans); letter-spacing: normal; padding: 10px; fill: var(--core-main); stroke: transparent;"
+                    text-anchor="start"
+                    x="85"
+                  >
+                    60
+                  </tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+          <g
+            clip-path="url(#victory-clip-38)"
+            style="border: 1px solid #ffffff; width: 100%; height: 100%;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-38"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+          </g>
+          <g
+            clip-path="url(#victory-clip-39)"
+            style="border: 1px solid #ffffff; width: 100%; height: 100%;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-39"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+          </g>
+          <g
+            clip-path="url(#victory-clip-40)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-40"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M54.878787878787875,-214.48964896490176L38.636363636363654,-214.48964896490176"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #be8c0b; stroke-width: 2;"
+            />
+          </g>
+          <g
+            clip-path="url(#victory-clip-41)"
+            style="height: -98px; width: 100%; user-select: none;"
+          >
+            <defs>
+              <clippath
+                id="victory-clip-41"
+              >
+                <rect
+                  height="234"
+                  vector-effect="non-scaling-stroke"
+                  width="8"
+                  x="63"
+                  y="-218"
+                />
+              </clippath>
+            </defs>
+            <path
+              d="M54.878787878787875,-182.89648964901755L38.636363636363654,-182.89648964901755"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: none; stroke: #d24c4c; stroke-width: 2;"
+            />
+          </g>
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+        >
+          <svg
+            height="-98"
+            style="overflow: visible; width: 100%; height: 100%;"
+            viewBox="0 0 100 -98"
+            width="100"
+          />
+        </div>
+      </div>
+      <div
+        class="VictoryContainer"
+        style="user-select: none; pointer-events: none; position: relative; width: 100px; height: 110px;"
+      >
+        <svg
+          height="110"
+          role="img"
+          style="pointer-events: all; width: 100px; height: 110px;"
+          width="100"
+        >
+          <g
+            role="presentation"
+          >
+            <line
+              role="presentation"
+              shape-rendering="auto"
+              style="stroke: var(--core-soft); stroke-width: 1;"
+              vector-effect="non-scaling-stroke"
+              x1="14"
+              x2="80"
+              y1="80"
+              y2="80"
+            />
+            <g
+              role="presentation"
+            >
+              <text
+                direction="inherit"
+                dx="0"
+                id="chart-axis-0-tickLabels-0"
+                x="14"
+                y="105.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 10px; fill: none; stroke: transparent;"
+                  text-anchor="middle"
+                  x="14"
+                >
+                  channel name
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <text
+                direction="inherit"
+                dx="0"
+                id="chart-axis-0-tickLabels-1"
+                x="80"
+                y="105.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: var(--core-sans); font-size: 14px; letter-spacing: normal; padding: 10px; fill: none; stroke: transparent;"
+                  text-anchor="middle"
+                  x="80"
+                >
+                  channel name 2
+                </tspan>
+              </text>
+            </g>
+          </g>
+          <g
+            role="presentation"
+          >
+            <path
+              d="M 14, 80 
+A 0 0 0 0 1, 14, 80 
+L 14, 1.2001066806988092e-10 
+A 0 0 0 0 1, 14, 1.2001066806988092e-10 
+L 24, 1.2001066806988092e-10 
+A 0 0 0 0 1, 24, 1.2001066806988092e-10 
+L 24, 80 
+A 0 0 0 0 1, 24, 80 
+ z"
+              index="0"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); stroke: hsl(222.4922359499622deg, 36.8421052631579%, 52.49999999999999%); width: 10px; padding: 8px; stroke-width: 0;"
+            />
+          </g>
+          <g
+            role="presentation"
+          />
+          <rect
+            cursor="move"
+            height="80"
+            style="fill: #fff; opacity: 0.3;"
+            vector-effect="non-scaling-stroke"
+            width="32.507462686567166"
+            x="-84.50746268656717"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-88.50746268656717"
+            y="0"
+          />
+          <rect
+            cursor="ew-resize"
+            height="80"
+            style="stroke: transparent; fill: transparent;"
+            vector-effect="non-scaling-stroke"
+            width="8"
+            x="-56"
+            y="0"
+          />
+        </svg>
+        <div
+          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100px; height: 110px;"
+        >
+          <svg
+            height="110"
+            style="overflow: visible; width: 100px; height: 110px;"
+            width="100"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="core-chart table-display"
+    >
+      <div
+        class="weavess-line-chart container"
+        style="height: 12px; width: 100px;"
+      >
+        <div
+          class="weavess-line-chart inner"
+        >
+          <div
+            class="weavess-line-chart chart"
+          >
+            <div
+              class="weavess"
+              data-cy="weavess-container"
+              data-end-time="1606818300"
+              data-start-time="1606818240"
+              style="--weavess-background-color: #182026;"
+            >
+              <div
+                class="horizontal-divider__bottom weavess-waveform-display"
+                data-cy="weavess-waveform-display"
+                style="height: 100%;"
+              />
+              <div
+                class="Toastify"
+                id="Weavess-Toast-Container"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

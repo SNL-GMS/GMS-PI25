@@ -1,0 +1,56 @@
+#
+#
+#
+BEAM_POINT              69.5348000   25.5057000
+#
+BEAM_PAR_FILE_TYPE      IDC
+BEAM_PAR_FILE           ARCES-beam.par
+#
+#
+#
+SAMPLE_RATE             80
+WINDOW                  4.00
+STEP                    0.25
+OVERLAP                 12.0
+WAIT                    4.00
+#
+#
+#
+FILTER                  0.50 1.00 6.00 6.50
+BANDPASS                7
+0.50 1.00 4.00 4.50
+0.50 1.00 3.00 3.50
+0.50 2.00 4.00 4.50
+0.50 1.00 2.00 2.50
+1.00 1.50 3.00 3.50
+1.50 2.00 3.00 3.50
+2.50 3.00 6.00 6.50
+#
+#
+#                  
+FTAN_TYPE               hann
+FTAN_WIDTH              constant                  
+#
+#
+#
+WHITEN_NOISE            1
+NOISE_SPECTRUM          NLNM_DP.dat
+UPDATE_NOISE_SPECTRUM   1
+CORRELATED_NOISE        1
+NOISE_SPEED             3.75
+NOISE_BAND              0.10 5.00
+#
+#
+#
+USE_LTA                 TRUE
+LTA_GAP                  5.0
+LTA_LENGTH              60.0
+LTA_FILE                lta.txt
+#
+#
+#
+MAX_POWER_RATIO         4.0
+SIGNAL_UPDATE           2.0
+#
+#
+RESPONSE FAP  CMAR-SHZ.fap

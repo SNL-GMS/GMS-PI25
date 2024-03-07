@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Can retrieve FkData createComputeFkInput 1`] = `
+{
+  "configuration": {
+    "contributingChannelsConfiguration": [
+      {
+        "enabled": true,
+        "id": "ARCES.ARA0.BHE",
+        "name": "ARCES.ARA0.BHE",
+      },
+      {
+        "enabled": true,
+        "id": "ARCES.ARA0.BHN",
+        "name": "ARCES.ARA0.BHN",
+      },
+      {
+        "enabled": true,
+        "id": "ARCES.ARA0.BHZ",
+        "name": "ARCES.ARA0.BHZ",
+      },
+      {
+        "enabled": true,
+        "id": "ARCES.ARA1.BHE",
+        "name": "ARCES.ARA1.BHE",
+      },
+      {
+        "enabled": true,
+        "id": "ARCES.ARA1.BHN",
+        "name": "ARCES.ARA1.BHN",
+      },
+    ],
+    "leadFkSpectrumSeconds": 1,
+    "maximumSlowness": 40,
+    "mediumVelocity": 5.8,
+    "normalizeWaveforms": false,
+    "numberOfPoints": 81,
+    "useChannelVerticalOffset": false,
+  },
+  "fkComputeInput": {
+    "channels": [
+      {
+        "name": "ARCES.ARA0.BHE",
+      },
+      {
+        "name": "ARCES.ARA0.BHN",
+      },
+      {
+        "name": "ARCES.ARA0.BHZ",
+      },
+      {
+        "name": "ARCES.ARA1.BHE",
+      },
+      {
+        "name": "ARCES.ARA1.BHN",
+      },
+    ],
+    "highFrequency": 2,
+    "lowFrequency": 0.5,
+    "normalizeWaveforms": false,
+    "phaseType": "P",
+    "sampleCount": 604,
+    "sampleRate": 2,
+    "slowCountX": 81,
+    "slowCountY": 81,
+    "slowDeltaX": 0.008882188700431906,
+    "slowDeltaY": 0.008882188700431906,
+    "slowStartX": -0.3597286423674922,
+    "slowStartY": -0.3597286423674922,
+    "startTime": undefined,
+    "useChannelVerticalOffset": false,
+    "windowLead": "PT1S",
+    "windowLength": "PT5S",
+  },
+  "isThumbnailRequest": false,
+  "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+  "windowParams": {
+    "leadSeconds": 1,
+    "lengthSeconds": 5,
+    "stepSize": 0.5,
+  },
+}
+`;
+
+exports[`Can retrieve FkData getDefaultFkConfigurationForSignalDetection 1`] = `
+{
+  "fkSpectrumDurationSeconds": 300,
+  "frequencyBand": {
+    "maxFrequencyHz": 2,
+    "minFrequencyHz": 0.5,
+  },
+  "leadFkSpectrumSeconds": 1,
+  "maximumSlowness": 40,
+  "mediumVelocity": 5.8,
+  "normalizeWaveforms": false,
+  "numberOfPoints": 81,
+  "prefilter": {
+    "filterDefinition": null,
+    "namedFilter": null,
+    "unfiltered": true,
+    "withinHotKeyCycle": true,
+  },
+  "selectedChannels": [],
+  "stepSizeSeconds": 0.5,
+  "useChannelVerticalOffset": false,
+  "window": {
+    "durationSecs": 5,
+    "leadSecs": 1,
+  },
+}
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Find events by associated SD hypotheses addFindEventsByAssociatedSignalDetectionHypothesesReducers builds 1`] = `
+Map {
+  "eventManagerApi/findEventsByAssociatedSignalDetectionHypotheses/pending" => [Function],
+  "eventManagerApi/findEventsByAssociatedSignalDetectionHypotheses/fulfilled" => [Function],
+  "eventManagerApi/findEventsByAssociatedSignalDetectionHypotheses/rejected" => [Function],
+}
+`;
+
+exports[`Find events by associated SD hypotheses addFindEventsByAssociatedSignalDetectionHypothesesReducers builds 2`] = `
+{
+  "queries": {
+    "findEventsByAssociatedSignalDetectionHypotheses": {
+      "eventsByAssociatedSignalDetectionHypotheses": {
+        "12345": {
+          "arg": undefined,
+          "error": undefined,
+          "status": "pending",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Find events by associated SD hypotheses addFindEventsByAssociatedSignalDetectionHypothesesReducers builds 3`] = `
+{
+  "queries": {
+    "findEventsByAssociatedSignalDetectionHypotheses": {
+      "eventsByAssociatedSignalDetectionHypotheses": {
+        "12345": {
+          "arg": undefined,
+          "error": undefined,
+          "status": "fulfilled",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Find events by associated SD hypotheses addFindEventsByAssociatedSignalDetectionHypothesesReducers builds 4`] = `
+{
+  "queries": {
+    "findEventsByAssociatedSignalDetectionHypotheses": {
+      "eventsByAssociatedSignalDetectionHypotheses": {
+        "12345": {
+          "arg": undefined,
+          "error": undefined,
+          "status": "rejected",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Find events by associated SD hypotheses findEventsByAssociatedSignalDetectionHypotheses returns events 1`] = `[Function]`;

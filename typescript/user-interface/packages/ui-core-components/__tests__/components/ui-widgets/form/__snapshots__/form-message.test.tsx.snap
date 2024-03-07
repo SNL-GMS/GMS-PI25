@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form message can render with no details and intent 1`] = `
+<div>
+  <div
+    class="form-message"
+  >
+    <span
+      class="form-message__summary"
+    >
+      <span
+        aria-hidden="true"
+        class="bp4-icon bp4-icon-info-sign"
+        icon="info-sign"
+      >
+        <svg
+          data-icon="info-sign"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM7 3h2v2H7V3zm3 10H6v-1h1V7H6V6h3v6h1v1z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      my summary
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Form message can render with no intent 1`] = `
+<div>
+  <div
+    class="form-message"
+  >
+    <span
+      class="form-message__summary"
+    >
+      <span
+        aria-hidden="true"
+        class="bp4-icon bp4-icon-info-sign"
+        icon="info-sign"
+      >
+        <svg
+          data-icon="info-sign"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM7 3h2v2H7V3zm3 10H6v-1h1V7H6V6h3v6h1v1z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      my summary
+    </span>
+    <span
+      class="form-message__recommendation"
+    >
+      my details
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Form message can render with undefined 1`] = `<div />`;
+
+exports[`Form message can render with with different intents 1`] = `
+<div>
+  <div
+    class="form-message"
+  >
+    <span
+      class="form-message__summary"
+    >
+      <span
+        aria-hidden="true"
+        class="bp4-icon bp4-icon-info-sign"
+        icon="info-sign"
+      >
+        <svg
+          data-icon="info-sign"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM7 3h2v2H7V3zm3 10H6v-1h1V7H6V6h3v6h1v1z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      my summary
+    </span>
+    <span
+      class="form-message__recommendation"
+    >
+      my details
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Form message can render with with different intents 2`] = `
+<div>
+  <div
+    class="form-message form-message--info"
+  >
+    <span
+      class="form-message__summary"
+    >
+      <span
+        aria-hidden="true"
+        class="bp4-icon bp4-icon-info-sign bp4-intent-primary"
+        icon="info-sign"
+      >
+        <svg
+          data-icon="info-sign"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM7 3h2v2H7V3zm3 10H6v-1h1V7H6V6h3v6h1v1z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      my summary
+    </span>
+    <span
+      class="form-message__recommendation"
+    >
+      my details
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Form message can render with with different intents 3`] = `
+<div>
+  <div
+    class="form-message form-message--info"
+  >
+    <span
+      class="form-message__summary"
+    >
+      <span
+        aria-hidden="true"
+        class="bp4-icon bp4-icon-info-sign bp4-intent-success"
+        icon="info-sign"
+      >
+        <svg
+          data-icon="info-sign"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM7 3h2v2H7V3zm3 10H6v-1h1V7H6V6h3v6h1v1z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      my summary
+    </span>
+    <span
+      class="form-message__recommendation"
+    >
+      my details
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Form message can render with with different intents 4`] = `
+<div>
+  <div
+    class="form-message form-message--warning"
+  >
+    <span
+      class="form-message__summary"
+    >
+      <span
+        aria-hidden="true"
+        class="bp4-icon bp4-icon-warning-sign bp4-intent-warning"
+        icon="warning-sign"
+      >
+        <svg
+          data-icon="warning-sign"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M15.84 13.5l.01-.01-7-12-.01.01c-.17-.3-.48-.5-.85-.5s-.67.2-.85.5l-.01-.01-7 12 .01.01c-.09.15-.15.31-.15.5 0 .55.45 1 1 1h14c.55 0 1-.45 1-1 0-.19-.06-.35-.15-.5zm-6.85-.51h-2v-2h2v2zm0-3h-2v-5h2v5z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      my summary
+    </span>
+    <span
+      class="form-message__recommendation"
+    >
+      my details
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Form message can render with with different intents 5`] = `
+<div>
+  <div
+    class="form-message form-message--danger"
+  >
+    <span
+      class="form-message__summary"
+    >
+      <span
+        aria-hidden="true"
+        class="bp4-icon bp4-icon-error bp4-intent-danger"
+        icon="error"
+      >
+        <svg
+          data-icon="error"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M7.99-.01c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm1 13h-2v-2h2v2zm0-3h-2v-7h2v7z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      my summary
+    </span>
+    <span
+      class="form-message__recommendation"
+    >
+      my details
+    </span>
+  </div>
+</div>
+`;

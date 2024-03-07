@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventContextMenu Cannot close if not already open and opens with only 1 actionTarget 1`] = `
+<div>
+  <ul
+    class="bp4-menu"
+    role="menu"
+  >
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-open-event"
+        data-cy="menu-item-open-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Open event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled menu-item-close-event"
+        data-cy="menu-item-close-event"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Close event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-duplicate-event"
+        data-cy="menu-item-duplicate-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Duplicate 1 selected event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-delete-event"
+        data-cy="menu-item-delete-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Delete 1 selected event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-reject-event"
+        data-cy="menu-item-reject-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Reject 1 selected event
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`EventContextMenu isOpen=true enables "Close Event" and disables "Open Event 1`] = `
+<div>
+  <ul
+    class="bp4-menu"
+    role="menu"
+  >
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled menu-item-open-event"
+        data-cy="menu-item-open-event"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Open event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-close-event"
+        data-cy="menu-item-close-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Close event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-duplicate-event"
+        data-cy="menu-item-duplicate-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Duplicate 1 selected event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-delete-event"
+        data-cy="menu-item-delete-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Delete 1 selected event
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss menu-item-reject-event"
+        data-cy="menu-item-reject-event"
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Reject 1 selected event
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

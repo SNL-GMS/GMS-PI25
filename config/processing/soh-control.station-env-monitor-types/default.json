@@ -1,0 +1,12 @@
+{
+  "name": "default-station-env-monitor-types",
+  "constraints": [
+    {
+      "constraintType": "DEFAULT"
+    }
+  ],
+  "parameters": {
+    "envMonitorTypes": [
+    ]
+  }
+}

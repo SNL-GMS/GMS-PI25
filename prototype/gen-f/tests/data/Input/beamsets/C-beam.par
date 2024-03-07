@@ -1,0 +1,23 @@
+ 
+#!BeginTable beam-recipe
+|name     |type|rot |std|snr  |azi   |slow  |phase    |flo  |fhi  |ford|zp|ftype|group   |
+ ND_xxx    coh  no   0   1.00    0.0  0.0000 -         0.70  2.00  3    0  BP    vertical 
+ ND_xxx    coh  no   0   1.00    0.0  0.0800 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00   60.0  0.0800 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  120.0  0.0800 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  180.0  0.0800 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  240.0  0.0800 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  300.0  0.0800 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00    0.0  0.1600 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00   30.0  0.1385 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00   60.0  0.1600 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00   90.0  0.1385 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  120.0  0.1600 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  150.0  0.1385 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  180.0  0.1600 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  210.0  0.1385 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  240.0  0.1600 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  270.0  0.1385 -         0.70  2.00  3    0  BP    vertical
+ ND_xxx    coh  no   0   1.00  300.0  0.1600 -         0.70  2.00  3    0  BP    vertical  
+ ND_xxx    coh  no   0   1.00  330.0  0.1385 -         0.70  2.00  3    0  BP    vertical  
+

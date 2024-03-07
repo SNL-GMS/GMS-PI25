@@ -1,0 +1,21 @@
+# git
+*.orig
+
+# python and python packaging
+__pycache__/
+**/__pycache__/
+**/*.pyc
+**/*.egg-info/
+**/.DS_Store/
+dist/
+build/
+
+# editors
+
+.vscode/
+*~
+\#*
+\.#*
+
+# Output dir
+Output

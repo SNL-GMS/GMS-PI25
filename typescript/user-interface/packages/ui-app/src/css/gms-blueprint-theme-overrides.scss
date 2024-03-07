@@ -1,0 +1,174 @@
+$bp4-intent-primary: var(--gms-input-highlight, $gms-input-highlight);
+$bp4-intent-success: $gms-good;
+$bp4-intent-warning: $gms-warning;
+$bp4-intent-danger: $gms-strong-warning;
+
+$pt-app-background-color: var(--gms-background, $gms-background);
+$pt-dark-app-background-color: var(--gms-background, $gms-background);
+$pt-text-color: var(--gms-main, $gms-main);
+$pt-dark-text-color: var(--gms-main, $gms-main);
+
+$pt-text-color-muted: var(--gms-prominent, $gms-prominent);
+$pt-dark-text-color-muted: var(--gms-prominent, $gms-prominent);
+
+$pt-text-color-disabled: var(--gms-soft, $gms-soft);
+$pt-dark-text-color-disabled: var(--gms-soft, $gms-soft);
+
+$pt-heading-color: var(--gms-main, $gms-main);
+$pt-dark-heading-color: var(--gms-main, $gms-main);
+
+$pt-icon-color: var(--gms-prominent, $gms-prominent);
+$pt-dark-icon-color: var(--gms-prominent, $gms-prominent);
+
+$pt-icon-color-hover: var(--gms-main, $gms-main);
+$pt-dark-icon-color-hover: var(--gms-main, $gms-main);
+
+$pt-icon-color-disabled: var(--gms-soft, $gms-soft);
+$pt-dark-icon-color-disabled: var(--gms-soft, $gms-soft);
+
+$pt-icon-color-selected: var(--gms-main, $gms-main);
+$pt-dark-icon-color-selected: var(--gms-main, $gms-main);
+
+$pt-divider-black: var(--gms-prominent, $gms-prominent);
+$pt-dark-divider-black: var(--gms-prominent, $gms-prominent);
+$pt-dark-divider-white: var(--gms-prominent, $gms-prominent);
+
+$pt-code-text-color: var(--gms-main, $gms-main);
+$pt-dark-code-text-color: var(--gms-main, $gms-main);
+
+$pt-code-background-color: var(--gms-prominent-background, $gms-prominent-background);
+
+@import '@blueprintjs/core/lib/css/blueprint.css';
+@import '@blueprintjs/datetime/lib/css/blueprint-datetime.css';
+
+.bp4-dark .bp4-menu,
+.bp4-dark .bp4-dialog-header,
+.bp4-drawer.bp4-dark,
+.bp4-dark .bp4-drawer {
+  background: var(--gms-popover-background, $gms-popover-background);
+  color: var(--gms-main, $gms-main);
+}
+
+.bp4-dark .bp4-datepicker {
+  background-color: rgba(17, 20, 24, 0.3);
+}
+
+.bp4-dark .bp4-html-select select,
+.bp4-dark .bp4-select select {
+  background-color: var(--gms-button, $gms-button);
+  &:hover {
+    background-color: var(--gms-button-hover, $gms-button-hover);
+  }
+}
+
+.bp4-dark .bp4-button:not([class*='bp4-intent-']) {
+  color: var(--gms-main, $gms-main);
+  box-shadow: none;
+}
+
+.bp4-control input:checked ~ .bp4-control-indicator {
+  color: var(--gms-main, $gms-main);
+}
+
+.bp4-dark .bp4-control {
+  color: var(--gms-main, $gms-main);
+}
+
+.bp4-tooltip2 .bp4-popover2-content,
+.bp4-tooltip2 .bp4-heading {
+  color: var(--gms-main, $gms-main);
+}
+
+.bp4-tooltip2 .bp4-popover2-content {
+  background: var(--gms-popover-background, $gms-popover-background);
+}
+
+.bp4-non-ideal-state {
+  & > * {
+    margin-bottom: 0.5em;
+    user-select: text;
+  }
+}
+
+.bp4-popover.bp4-dark .bp4-popover-content,
+.bp4-popover.bp4-dark .bp4-heading,
+.bp4-dark .bp4-popover .bp4-popover-content,
+.bp4-dark .bp4-popover .bp4-heading {
+  color: var(--gms-main, $gms-main);
+}
+
+.bp4-popover.bp4-dark .bp4-popover-content,
+.bp4-dark .bp4-popover .bp4-popover-content,
+.bp4-dark .bp4-popover2 .bp4-popover2-content,
+.bp4-popover2.bp4-dark .bp4-popover2-content {
+  background: var(--gms-popover-background, $gms-popover-background);
+  color: var(--gms-main, #f6f7f9);
+}
+
+.bp4-card.bp4-dark,
+.bp4-dark .bp4-card {
+  background: var(--gms-prominent-background, $gms-prominent-background);
+  color: var(--gms-main, #f6f7f9);
+}
+
+.gms-light-mode {
+  .bp4-dark .bp4-menu-divider,
+  .bp4-dark .bp4-menu-header {
+    border-color: rgba(0, 0, 0, 0.15);
+  }
+}
+
+.bp4-tooltip2.bp4-dark .bp4-popover2-content,
+.bp4-dark .bp4-tooltip2 .bp4-popover2-content,
+.bp4-dark .bp4-tooltip2 .bp4-heading,
+.bp4-tooltip2.bp4-dark .bp4-heading {
+  background: var(--gms-tooltip-background, #e5e8eb);
+  color: var(--gms-tooltip-foreground, var(--gms-main-inverted, $gms-main-inverted));
+}
+
+.bp4-tooltip2 p {
+  max-width: 44ch;
+}
+
+.bp4-dialog-footer {
+  display: block;
+}
+
+// Expects minimal footer design
+.bp4-dialog-body + .bp4-dialog-footer {
+  margin-top: 0; // too much space otherwise
+  border-top: 1px solid var(--gms-popover-background, gray);
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.bp4-dialog-footer-actions .bp4-button-group {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bp4-timepicker .bp4-timepicker-input {
+  font-family: monospace;
+}
+
+.bp4-timepicker.bp4-disabled {
+  opacity: 0.666;
+}
+.bp4-tooltip2 p:last-child {
+  margin-bottom: 0;
+}
+.bp4-form-group:last-child {
+  margin-bottom: 0;
+}
+
+.bp4-input::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 1px;
+}
+
+// Sticky X button for inputs with scroll
+.bp4-multi-select button.bp4-button {
+  position: sticky;
+  top: 3px;
+}

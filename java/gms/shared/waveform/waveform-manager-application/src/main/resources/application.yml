@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: waveform-manager
+  processing:
+    configuration-names: waveform-manager
+  codec:
+    max-in-memory-size: 20MB
+
+server:
+  compression:
+    enabled: true
+    mime-types: "text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json,application/msgpack"
+    min-response-size: 1024
+  servlet:
+    context-path: /waveform-manager-service
+
+gms:
+  persistence:
+    account: gms_global_ro
+    unit: gms_station_definition
+
+qcMaskPersistenceUnitName: gms_qc_mask
+qcMaskDurationTimeConfig: qc-mask.qc-duration-time-parameters
+qcMaskJdbcUrlConfig: qc-mask.jdbc_url
+
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true

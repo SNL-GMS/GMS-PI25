@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Environment history panel render weavess display 1`] = `
+<div>
+  <div
+    class="weavess-container"
+    tabindex="0"
+  >
+    <div
+      class="weavess-container__wrapper"
+    >
+      <div
+        class="weavess"
+        data-cy="weavess-container"
+        data-end-time="1"
+        data-start-time="0.5"
+        style="--weavess-background-color: #182026;"
+      >
+        <div
+          class="horizontal-divider__bottom weavess-waveform-display"
+          data-cy="weavess-waveform-display"
+          style="height: 100%;"
+        />
+        <div
+          class="Toastify"
+          id="Weavess-Toast-Container"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Station cell context menu DisabledStationSohContextMenu can be created 1`] = `<body />`;
+
+exports[`Station cell context menu StationSohContextMenu can be created 1`] = `
+<body>
+  <div>
+    <ul
+      class="bp4-menu"
+      role="menu"
+    >
+      <li
+        class=""
+        role="none"
+      >
+        <a
+          class="bp4-menu-item bp4-popover2-dismiss acknowledge-soh-status"
+          data-cy="acknowledge-without-comment"
+          role="menuitem"
+          tabindex="0"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Acknowledge 2 stations
+          </div>
+        </a>
+      </li>
+      <li
+        class=""
+        role="none"
+      >
+        <a
+          class="bp4-menu-item bp4-popover2-dismiss acknowledge-soh-status"
+          role="menuitem"
+          tabindex="0"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Acknowledge 2 stations with comment...
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul
+      class="bp4-menu"
+      role="menu"
+    >
+      <li
+        class=""
+        role="none"
+      >
+        <a
+          class="bp4-menu-item bp4-disabled acknowledge-soh-status"
+          data-cy="acknowledge-without-comment"
+          role="menuitem"
+          tabindex="-1"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Acknowledge 2 stations
+          </div>
+        </a>
+      </li>
+      <li
+        class=""
+        role="none"
+      >
+        <a
+          class="bp4-menu-item bp4-disabled acknowledge-soh-status"
+          role="menuitem"
+          tabindex="-1"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Acknowledge 2 stations with comment...
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+`;

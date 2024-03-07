@@ -1,0 +1,22 @@
+{
+    "clientVersion": {
+      "major": "1",
+      "minor": "20",
+      "gitVersion": "v1.20.8+k3s1",
+      "gitCommit": "5d0a12a6168bf2140216913ea9e5df6f81a26ec6",
+      "gitTreeState": "clean",
+      "buildDate": "2021-06-21T20:44:53Z",
+      "compiler": "gc",
+      "platform": "linux/amd64"
+    },
+    "serverVersion": {
+      "major": "1",
+      "minor": "20",
+      "gitVersion": "v1.20.8",
+      "gitCommit": "5575935422cc1cf5169dfc8847cb587aa47bac5a",
+      "gitTreeState": "clean",
+      "buildDate": "2021-06-16T12:53:07Z",
+      "compiler": "gc",
+      "platform": "linux/amd64"
+    }
+  }

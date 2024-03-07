@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signal Detection Context Menu renders 1`] = `
+<div>
+  <ul
+    class="bp4-menu signal-detection-table__context-menu"
+    role="menu"
+  >
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled"
+        data-cy="show-sd-details"
+        label="(alt + click)"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Open signal detection details
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        >
+          (alt + click)
+        </span>
+      </a>
+    </li>
+    <li
+      class="bp4-submenu"
+      role="none"
+    >
+      <span
+        aria-haspopup="true"
+        class="bp4-popover2-target"
+        role="menuitem"
+        tabindex="0"
+      >
+        <a
+          class="bp4-menu-item bp4-disabled"
+          data-cy="association-menu"
+          role="none"
+          tabindex="-1"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Event association
+          </div>
+          <span
+            aria-hidden="true"
+            class="bp4-icon bp4-icon-caret-right bp4-submenu-icon"
+            icon="caret-right"
+          >
+            <svg
+              data-icon="caret-right"
+              height="16"
+              role="img"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <path
+                d="M11 8c0-.15-.07-.28-.17-.37l-4-3.5A.495.495 0 006 4.5v7a.495.495 0 00.83.37l4-3.5c.1-.09.17-.22.17-.37z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+      </span>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled"
+        data-cy="set-phase"
+        label="(ctrl + shift + e)"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Set 0 phases
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        >
+          (ctrl + shift + e)
+        </span>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled"
+        data-cy="rephaseCurrent-sd"
+        label="(shift + e)"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Set 0 to current phase: null
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        >
+          (shift + e)
+        </span>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled"
+        data-cy="rephaseDefault-sd"
+        label="(alt + shift + e)"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Set 0 to default phase: P
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        >
+          (alt + shift + e)
+        </span>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled"
+        data-cy="show-fk"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Show 0 FK
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-disabled"
+        data-cy="delete-sd"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Delete 0
+        </div>
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss"
+        data-cy="menu-item-export"
+        role="menuitem"
+        tabindex="0"
+      >
+        <span
+          class="bp4-menu-item-icon"
+        >
+          <span
+            aria-hidden="true"
+            class="bp4-icon bp4-icon-export"
+            icon="export"
+            tabindex="-1"
+          >
+            <svg
+              data-icon="export"
+              height="16"
+              role="img"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <path
+                d="M4 6c.28 0 .53-.11.71-.29L7 3.41V11c0 .55.45 1 1 1s1-.45 1-1V3.41l2.29 2.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71l-4-4C8.53.11 8.28 0 8 0s-.53.11-.71.29l-4 4A1.003 1.003 0 004 6zm11 5c-.55 0-1 .45-1 1v2H2v-2c0-.55-.45-1-1-1s-1 .45-1 1v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </span>
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Export
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

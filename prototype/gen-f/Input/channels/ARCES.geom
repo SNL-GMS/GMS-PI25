@@ -1,0 +1,26 @@
+25 69.5348000   25.5057000
+ARA0  SHZ                        
+ARA1  SHZ                         
+ARA2  SHZ                         
+ARA3  SHZ                        
+ARB1  SHZ                         
+ARB2  SHZ                         
+ARB3  SHZ                         
+ARB4  SHZ                         
+ARB5  SHZ                         
+ARC1  SHZ                         
+ARC2  SHZ                         
+ARC3  SHZ                        
+ARC4  SHZ                         
+ARC5  SHZ                         
+ARC6  SHZ                        
+ARC7  SHZ                         
+ARD1  SHZ                         
+ARD2  SHZ                         
+ARD3  SHZ                         
+ARD4  SHZ                         
+ARD5  SHZ                         
+ARD6  SHZ                         
+ARD7  SHZ                         
+ARD8  SHZ                        
+ARD9  SHZ                         

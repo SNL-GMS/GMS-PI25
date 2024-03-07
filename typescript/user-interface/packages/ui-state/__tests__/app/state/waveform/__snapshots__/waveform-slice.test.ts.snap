@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`waveform slice exists exists 1`] = `
+{
+  "baseStationTime": 0,
+  "channelFilters": {},
+  "currentStationGroupStationNames": [],
+  "displayedSignalDetectionConfiguration": {
+    "signalDetectionAfterInterval": true,
+    "signalDetectionAssociatedToCompletedEvent": true,
+    "signalDetectionAssociatedToOpenEvent": true,
+    "signalDetectionAssociatedToOtherEvent": true,
+    "signalDetectionBeforeInterval": true,
+    "signalDetectionConflicts": true,
+    "signalDetectionDeleted": null,
+    "signalDetectionUnassociated": true,
+  },
+  "loadingState": {
+    "completed": 0,
+    "description": "Loading waveforms",
+    "isLoading": false,
+    "percent": 0,
+    "total": 0,
+  },
+  "maskVisibility": {},
+  "maximumOffset": 0,
+  "minimumOffset": 0,
+  "shouldShowPredictedPhases": true,
+  "shouldShowTimeUncertainty": false,
+  "stationsVisibility": {},
+  "viewableInterval": null,
+  "viewportVisibleStations": [],
+  "zoomInterval": null,
+}
+`;

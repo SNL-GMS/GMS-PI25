@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get events by time build a builder using addGetChannelSegmentsByChannelReducers 1`] = `
+Map {
+  "events/getEventsWithDetectionsAndSegmentsByTime/pending" => [Function],
+  "events/getEventsWithDetectionsAndSegmentsByTime/fulfilled" => [Function],
+  "events/getEventsWithDetectionsAndSegmentsByTime/rejected" => [Function],
+}
+`;
+
+exports[`Get events by time build a builder using addGetChannelSegmentsByChannelReducers 2`] = `
+{
+  "channelSegments": [
+    {
+      "channelName": "stationName1",
+    },
+  ],
+  "events": [
+    {
+      "id": "eventID1",
+    },
+  ],
+  "queries": {
+    "getEventsWithDetectionsAndSegmentsByTime": {
+      "eventsWithDetectionsAndSegmentsByTime": {
+        "12345": {
+          "arg": {},
+          "error": undefined,
+          "status": "pending",
+        },
+      },
+    },
+  },
+  "signalDetections": [
+    {
+      "id": "sdID1",
+      "station": {
+        "name": "stationName1",
+      },
+    },
+  ],
+}
+`;
+
+exports[`Get events by time build a builder using addGetChannelSegmentsByChannelReducers 3`] = `
+{
+  "channelSegments": [
+    {
+      "channelName": "stationName1",
+    },
+  ],
+  "events": [
+    {
+      "id": "eventID1",
+    },
+  ],
+  "queries": {
+    "getEventsWithDetectionsAndSegmentsByTime": {
+      "eventsWithDetectionsAndSegmentsByTime": {
+        "12345": {
+          "arg": {},
+          "error": undefined,
+          "status": "fulfilled",
+        },
+      },
+    },
+  },
+  "signalDetections": [
+    {
+      "id": "sdID1",
+      "station": {
+        "name": "stationName1",
+      },
+    },
+  ],
+}
+`;
+
+exports[`Get events by time build a builder using addGetChannelSegmentsByChannelReducers 4`] = `
+{
+  "channelSegments": [
+    {
+      "channelName": "stationName1",
+    },
+  ],
+  "events": [
+    {
+      "id": "eventID1",
+    },
+  ],
+  "queries": {
+    "getEventsWithDetectionsAndSegmentsByTime": {
+      "eventsWithDetectionsAndSegmentsByTime": {
+        "12345": {
+          "arg": {},
+          "error": undefined,
+          "status": "rejected",
+        },
+      },
+    },
+  },
+  "signalDetections": [
+    {
+      "id": "sdID1",
+      "station": {
+        "name": "stationName1",
+      },
+    },
+  ],
+}
+`;

@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`event list Toolbar matches snapshot 1`] = `
+<div>
+  <div
+    class="base-display "
+  >
+    <div
+      class="toolbar"
+      style="width: 1884px;"
+    >
+      <div
+        class="toolbar__left-group"
+      >
+        <div
+          class="toolbar-item toolbar-item__left"
+        >
+          <div
+            class="counter"
+          >
+            <span
+              class="counter__entry"
+              style="--entry-color: tomato;"
+              title="test"
+            >
+              <span
+                class="counter__label"
+              >
+                Total
+              </span>
+              <span
+                class="counter__count "
+              >
+                <span
+                  class="counter__count--prefix"
+                >
+                  0
+                  0
+                </span>
+                <span
+                  class="counter__count--main"
+                >
+                  0
+                </span>
+              </span>
+            </span>
+            <span
+              class="counter__entry"
+              style="--entry-color: tomato;"
+              title="test"
+            >
+              <span
+                class="counter__label"
+              >
+                Complete
+              </span>
+              <span
+                class="counter__count "
+              >
+                <span
+                  class="counter__count--prefix"
+                >
+                  0
+                  0
+                </span>
+                <span
+                  class="counter__count--main"
+                >
+                  0
+                </span>
+              </span>
+            </span>
+            <span
+              class="counter__entry"
+              style="--entry-color: tomato;"
+              title="test"
+            >
+              <span
+                class="counter__label"
+              >
+                Deleted
+              </span>
+              <span
+                class="counter__count "
+              >
+                <span
+                  class="counter__count--prefix"
+                >
+                  0
+                  0
+                </span>
+                <span
+                  class="counter__count--main"
+                >
+                  0
+                </span>
+              </span>
+            </span>
+            <span
+              class="counter__entry"
+              style="--entry-color: tomato;"
+              title="test"
+            >
+              <span
+                class="counter__label"
+              >
+                Remaining
+              </span>
+              <span
+                class="counter__count "
+              >
+                <span
+                  class="counter__count--prefix"
+                >
+                  0
+                  0
+                </span>
+                <span
+                  class="counter__count--main"
+                >
+                  0
+                </span>
+              </span>
+            </span>
+            <span
+              class="counter__entry"
+              style="--entry-color: tomato;"
+              title="test"
+            >
+              <span
+                class="counter__label"
+              >
+                Conflicts
+              </span>
+              <span
+                class="counter__count "
+              >
+                <span
+                  class="counter__count--prefix"
+                >
+                  0
+                  0
+                </span>
+                <span
+                  class="counter__count--main"
+                >
+                  0
+                </span>
+              </span>
+            </span>
+            <span
+              class="counter__entry"
+              style="--entry-color: tomato;"
+              title="test"
+            >
+              <span
+                class="counter__label"
+              >
+                Rejected
+              </span>
+              <span
+                class="counter__count "
+              >
+                <span
+                  class="counter__count--prefix"
+                >
+                  0
+                  0
+                </span>
+                <span
+                  class="counter__count--main"
+                >
+                  0
+                </span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="toolbar__center-group"
+      >
+        <div
+          class="toolbar__whitespace"
+          style="width: 1884px;"
+        />
+      </div>
+      <div
+        class="toolbar__right-group"
+      >
+        <div
+          class="toolbar-item
+                  "
+        >
+          <div>
+            <div
+              class="bp4-context-menu2"
+            >
+              <div />
+            </div>
+            <div
+              data-cy="filter-column"
+            >
+              <button
+                class="bp4-button bp4-align-left toolbar-button"
+                style="width: 150px;"
+                title="Set which edge events are visible"
+                type="button"
+              >
+                <span
+                  class="bp4-button-text"
+                >
+                  <span>
+                    Show Events
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    class="bp4-icon bp4-icon-chevron-down"
+                    icon="chevron-down"
+                  >
+                    <svg
+                      data-icon="chevron-down"
+                      height="16"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                    >
+                      <path
+                        d="M12 5c-.28 0-.53.11-.71.29L8 8.59l-3.29-3.3a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.29l4-4A1.003 1.003 0 0012 5z"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="toolbar-item
+                  "
+        >
+          <div>
+            <div
+              class="bp4-context-menu2"
+            >
+              <div />
+            </div>
+            <div
+              data-cy="filter-column"
+            >
+              <button
+                class="bp4-button bp4-align-left toolbar-button"
+                style="width: 150px;"
+                title="Set which columns are visible"
+                type="button"
+              >
+                <span
+                  class="bp4-button-text"
+                >
+                  <span>
+                    Show Columns
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    class="bp4-icon bp4-icon-chevron-down"
+                    icon="chevron-down"
+                  >
+                    <svg
+                      data-icon="chevron-down"
+                      height="16"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                    >
+                      <path
+                        d="M12 5c-.28 0-.53.11-.71.29L8 8.59l-3.29-3.3a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29s.53-.11.71-.29l4-4A1.003 1.003 0 0012 5z"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="toolbar-item
+                  "
+        >
+          <div>
+            <button
+              class="bp4-button bp4-align-left toolbar-button"
+              data-cy="btn-create-event"
+              title="Create new event from selected signal detections or virtual event when no signal detections selected (hot key: undefined)"
+              type="button"
+            >
+              <span
+                class="bp4-button-text"
+              >
+                <span>
+                  Create Event
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="toolbar-item
+                  "
+        >
+          <div>
+            <button
+              class="bp4-button bp4-align-left toolbar-button"
+              data-cy="mark-open-complete"
+              title="Mark selected events complete"
+              type="button"
+            >
+              <span
+                class="bp4-button-text"
+              >
+                <span>
+                  Mark Selected Complete
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

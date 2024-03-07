@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create-signal-detection-menu CreateSignalDetectionMenuContent matches snapshot 1`] = `
+<div>
+  <ul
+    class="bp4-menu create-sd-menu"
+    role="menu"
+  >
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss"
+        label=""
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Create signal detection associated to a waveform with current phase
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        />
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss"
+        label=""
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Create signal detection associated to a waveform with default phase
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        />
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss"
+        label=""
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Create signal detection not associated to a waveform with current phase
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        />
+      </a>
+    </li>
+    <li
+      class=""
+      role="none"
+    >
+      <a
+        class="bp4-menu-item bp4-popover2-dismiss"
+        label=""
+        role="menuitem"
+        tabindex="0"
+      >
+        <div
+          class="bp4-fill bp4-text-overflow-ellipsis"
+        >
+          Create signal detection not associated to a waveform with default phase
+        </div>
+        <span
+          class="bp4-menu-item-label"
+        />
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`create-signal-detection-menu exists and renders 1`] = `
+<div>
+  <div>
+    <div
+      class="bp4-context-menu2"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`create-signal-detection-menu exists and renders 2`] = `
+<body
+  class="bp4-overlay-open"
+>
+  <div>
+    <div>
+      <div
+        class="bp4-context-menu2"
+      >
+        <div />
+      </div>
+    </div>
+  </div>
+  <div
+    class="bp4-portal"
+  >
+    <div
+      class="bp4-context-menu2-virtual-target"
+      style="left: 100px; top: 100px;"
+    />
+  </div>
+  <div
+    class="bp4-portal"
+  >
+    <div
+      aria-live="polite"
+      class="bp4-overlay bp4-overlay-open"
+    >
+      <div
+        class="bp4-overlay-start-focus-trap bp4-popover2-appear bp4-popover2-appear-active"
+        tabindex="0"
+      />
+      <div
+        class="bp4-overlay-backdrop bp4-popover2-backdrop bp4-context-menu2-backdrop bp4-popover2-appear bp4-popover2-appear-active"
+      />
+      <div
+        class="bp4-popover2-transition-container bp4-overlay-content bp4-popover2-appear bp4-popover2-appear-active"
+        style="position: fixed; left: 0px; top: 0px;"
+      >
+        <div
+          class="bp4-popover2 bp4-minimal bp4-popover2-reference-hidden bp4-popover2-popper-escaped bp4-popover2-placement-right bp4-context-menu2-popover2"
+          style="transform-origin: left center;"
+        >
+          <div
+            class="bp4-popover2-content"
+          >
+            <div>
+              <ul
+                class="bp4-menu create-sd-menu"
+                role="menu"
+              >
+                <li
+                  class=""
+                  role="none"
+                >
+                  <a
+                    class="bp4-menu-item bp4-popover2-dismiss"
+                    label=""
+                    role="menuitem"
+                    tabindex="0"
+                  >
+                    <div
+                      class="bp4-fill bp4-text-overflow-ellipsis"
+                    >
+                      Create signal detection associated to a waveform with current phase
+                    </div>
+                    <span
+                      class="bp4-menu-item-label"
+                    />
+                  </a>
+                </li>
+                <li
+                  class=""
+                  role="none"
+                >
+                  <a
+                    class="bp4-menu-item bp4-popover2-dismiss"
+                    label=""
+                    role="menuitem"
+                    tabindex="0"
+                  >
+                    <div
+                      class="bp4-fill bp4-text-overflow-ellipsis"
+                    >
+                      Create signal detection associated to a waveform with default phase
+                    </div>
+                    <span
+                      class="bp4-menu-item-label"
+                    />
+                  </a>
+                </li>
+                <li
+                  class=""
+                  role="none"
+                >
+                  <a
+                    class="bp4-menu-item bp4-popover2-dismiss"
+                    label=""
+                    role="menuitem"
+                    tabindex="0"
+                  >
+                    <div
+                      class="bp4-fill bp4-text-overflow-ellipsis"
+                    >
+                      Create signal detection not associated to a waveform with current phase
+                    </div>
+                    <span
+                      class="bp4-menu-item-label"
+                    />
+                  </a>
+                </li>
+                <li
+                  class=""
+                  role="none"
+                >
+                  <a
+                    class="bp4-menu-item bp4-popover2-dismiss"
+                    label=""
+                    role="menuitem"
+                    tabindex="0"
+                  >
+                    <div
+                      class="bp4-fill bp4-text-overflow-ellipsis"
+                    >
+                      Create signal detection not associated to a waveform with default phase
+                    </div>
+                    <span
+                      class="bp4-menu-item-label"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

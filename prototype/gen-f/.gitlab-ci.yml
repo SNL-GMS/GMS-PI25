@@ -1,0 +1,35 @@
+stages:
+  - test
+  - publish
+
+test:
+  stage: test
+  image: gms-docker-registry.xxx/gms-common/builder:1-15-1-4
+  script:
+    - echo $CI_REMOTE_REPOSITORY_URL
+    - conda config --remove default_channels https://gms-artifactory.xxx/artifactory/api/conda/sandbox_conda_virtual/main
+    - conda config --remove default_channels  https://gms-artifactory.xxx/artifactory/api/conda/sandbox_conda_virtual/free
+    - conda config --remove default_channels https://gms-artifactory.xxx/artifactory/api/conda/sandbox_conda_virtual/r
+    - conda env create -v -f environment-dev.yml
+    - source activate genf
+    - pip install .
+    - pytest -v
+  tags:
+    - gms-runner
+
+pypi:
+  stage: publish
+  image: gms-docker-registry.xxx/gms-common/builder:1-15-1-4
+  variables:
+    TWINE_USERNAME: $CI_USER
+    TWINE_PASSWORD: $CI_PASSWORD
+    TWINE_REPOSITORY_URL: $GMS_ARTIFACTORY_URL/api/pypi/sandbox_python_virtual/
+  script:
+    - conda env create -v
+    - source activate genf
+    - python setup.py sdist
+    - curl -0L $TWINE_REPOSITORY_URL
+    - twine upload dist/*
+  when: manual
+  tags:
+    - gms-runner  

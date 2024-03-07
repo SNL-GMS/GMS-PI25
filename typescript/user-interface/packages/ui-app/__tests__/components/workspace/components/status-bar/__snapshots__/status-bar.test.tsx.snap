@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBar matches a snapshot 1`] = `
+<div>
+  <div
+    class="status-bar"
+  >
+    <span
+      aria-haspopup="true"
+      class="bp4-popover2-target"
+    >
+      <div
+        class="loading-widget"
+        role="button"
+      >
+        <span
+          aria-hidden="true"
+          class="bp4-icon bp4-icon-tick"
+          icon="tick"
+        >
+          <svg
+            data-icon="tick"
+            height="20"
+            role="img"
+            viewBox="0 0 20 20"
+            width="20"
+          >
+            <path
+              d="M17 4c-.28 0-.53.11-.71.29L7 13.59 3.71 10.3A.965.965 0 003 10a1.003 1.003 0 00-.71 1.71l4 4c.18.18.43.29.71.29s.53-.11.71-.29l10-10A1.003 1.003 0 0017 4z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <span
+          class="loading-counter"
+        >
+          0/0
+        </span>
+        <div
+          class="loading-info"
+        >
+          <span
+            class="loading-info__label"
+          >
+            Loading: 
+          </span>
+          Complete
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+`;

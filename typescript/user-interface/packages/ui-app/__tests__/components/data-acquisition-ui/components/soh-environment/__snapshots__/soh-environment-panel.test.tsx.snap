@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SohEnvironmentPanel class should match snapshot 1`] = `
+<ContextProvider
+  value={
+    {
+      "getServerState": undefined,
+      "store": {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": {
+        "addNestedSub": [Function],
+        "getListeners": [Function],
+        "handleChangeWrapper": [Function],
+        "isSubscribed": [Function],
+        "notifyNestedSubs": [Function],
+        "trySubscribe": [Function],
+        "tryUnsubscribe": [Function],
+      },
+    }
+  }
+>
+  <ContextProvider
+    value={
+      {
+        "glContainer": {
+          "height": 150,
+          "width": 150,
+        },
+        "heightPx": 150,
+        "widthPx": 150,
+      }
+    }
+  >
+    <ContextProvider
+      value={
+        {
+          "glContainer": {},
+          "selectedAceiType": "BEGINNING_TIME_OUTAGE",
+          "setSelectedAceiType": [MockFunction],
+        }
+      }
+    >
+      <EnvironmentPanel
+        channelSohs={
+          [
+            {
+              "allSohMonitorValueAndStatuses": [
+                {
+                  "contributing": true,
+                  "hasUnacknowledgedChanges": false,
+                  "monitorType": "ENV_ZEROED_DATA",
+                  "quietUntilMs": 1,
+                  "status": "GOOD",
+                  "thresholdBad": 10,
+                  "thresholdMarginal": 1,
+                  "value": 1,
+                  "valuePresent": true,
+                },
+              ],
+              "channelName": "channelName",
+              "channelSohStatus": "GOOD",
+            },
+          ]
+        }
+        channelStatusesToDisplay={
+          {
+            "BAD": false,
+            "GOOD": true,
+            "MARGINAL": false,
+            "NONE": false,
+          }
+        }
+        defaultQuietDurationMs={10}
+        isStale={false}
+        monitorStatusesToDisplay={
+          {
+            "BAD": false,
+            "GOOD": true,
+            "MARGINAL": false,
+            "NONE": false,
+          }
+        }
+        quietingDurationSelections={
+          [
+            1,
+            5,
+            10,
+          ]
+        }
+        sohStatusContributors={[]}
+        stationName="AAK"
+      />
+    </ContextProvider>
+  </ContextProvider>
+</ContextProvider>
+`;

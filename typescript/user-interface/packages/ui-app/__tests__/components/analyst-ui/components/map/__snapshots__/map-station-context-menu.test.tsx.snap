@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapSignalDetectionContextMenu matches snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="bp4-context-menu2"
+    >
+      <div />
+    </div>
+  </div>
+  <div
+    class="bp4-portal"
+  >
+    <div
+      class="bp4-context-menu2-virtual-target"
+    />
+  </div>
+</body>
+`;

@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "../gms"
+		},
+		{
+			"path": "../test-tools"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"gradle.nestedProjects": true,
+		"java.test.editor.enableShortcuts": true,
+		"netbeans.verbose": true,
+		"search.exclude": {
+			"**/build/": true,
+			"**/.gradle/": true,
+			"**/*.class": true,
+			"**/generated-*/*": true
+		},
+		"sonarlint.connectedMode.project": {
+			"connectionId": "GMS SonarQube",
+			"projectKey": "gms-common-java"
+		},
+		"sonarlint.disableTelemetry": true,
+		"sonarlint.output.showAnalyzerLogs": true
+	}
+}

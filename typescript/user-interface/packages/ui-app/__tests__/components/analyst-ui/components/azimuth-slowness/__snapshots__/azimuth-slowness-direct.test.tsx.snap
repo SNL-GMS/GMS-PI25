@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AzimuthSlowness Direct AzimuthSlowness snapshot 1`] = `
+<div>
+  <div
+    class="base-display "
+  />
+  <div
+    class="azimuth-slowness-container"
+    data-cy="azimuth-slowness"
+    tabindex="0"
+  >
+    <div
+      class="azimuth-slowness-thumbnails"
+      style="width: 255px;"
+    >
+      <div
+        class="azimuth-slowness-thumbnails__control-container"
+      >
+        <div
+          class="azimuth-slowness-thumbnails-controls__wrapper"
+        >
+          <div
+            class="toolbar"
+            style="width: 255px;"
+          >
+            <div
+              class="toolbar__left-group"
+            >
+              <div
+                class="toolbar-item toolbar-item__left"
+              >
+                <div>
+                  <div
+                    class="dropdown-container"
+                  >
+                    <span
+                      class="dropdown-selector"
+                      data-cy="filter-dropdown"
+                    >
+                      <div
+                        class="bp4-html-select"
+                      >
+                        <select
+                          style="min-width: 130px; width: 130px;"
+                          title="Filter the fks"
+                        >
+                          <option
+                            value="First P"
+                          >
+                            First P
+                          </option>
+                          <option
+                            value="All"
+                          >
+                            All
+                          </option>
+                          <option
+                            value="Needs review"
+                          >
+                            Needs review
+                          </option>
+                        </select>
+                        <span
+                          class="bp4-icon bp4-icon-double-caret-vertical"
+                          icon="double-caret-vertical"
+                        >
+                          <svg
+                            aria-labelledby="iconTitle-3"
+                            data-icon="double-caret-vertical"
+                            height="16"
+                            role="img"
+                            viewBox="0 0 16 16"
+                            width="16"
+                          >
+                            <title
+                              id="iconTitle-3"
+                            >
+                              Open dropdown
+                            </title>
+                            <path
+                              d="M5 7h6a1.003 1.003 0 00.71-1.71l-3-3C8.53 2.11 8.28 2 8 2s-.53.11-.71.29l-3 3A1.003 1.003 0 005 7zm6 2H5a1.003 1.003 0 00-.71 1.71l3 3c.18.18.43.29.71.29s.53-.11.71-.29l3-3A1.003 1.003 0 0011 9z"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="toolbar__center-group"
+            >
+              <div
+                class="toolbar__whitespace"
+                style="width: 239px;"
+              />
+            </div>
+            <div
+              class="toolbar__right-group"
+            >
+              <div
+                class="toolbar-item
+                    "
+              >
+                <div>
+                  <button
+                    class="bp4-button bp4-disabled bp4-align-left toolbar-button"
+                    disabled=""
+                    style="width: 50px;"
+                    tabindex="-1"
+                    title="Selected next fk that needs review"
+                    type="button"
+                  >
+                    <span
+                      class="bp4-button-text"
+                    >
+                      <span>
+                        Next
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="toolbar-item
+                    "
+              >
+                <div>
+                  <div
+                    class="bp4-context-menu2"
+                  >
+                    <div />
+                  </div>
+                  <div>
+                    <button
+                      class="bp4-button toolbar-button--icon-only"
+                      style="width: 30px;"
+                      title="Options for displaying fk thumbnails"
+                      type="button"
+                    >
+                      <span
+                        class="bp4-button-text"
+                      >
+                        <span />
+                        <span
+                          aria-hidden="true"
+                          class="bp4-icon bp4-icon-more"
+                          icon="more"
+                        >
+                          <svg
+                            data-icon="more"
+                            height="16"
+                            role="img"
+                            viewBox="0 0 16 16"
+                            width="16"
+                          >
+                            <path
+                              d="M2 6.03a2 2 0 100 4 2 2 0 100-4zM14 6.03a2 2 0 100 4 2 2 0 100-4zM8 6.03a2 2 0 100 4 2 2 0 100-4z"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="azimuth-slowness-thumbnails__wrapper-1"
+      >
+        <div
+          class="azimuth-slowness-thumbnails__wrapper-2"
+          style="width: 0px;"
+        >
+          <div
+            class="bp4-context-menu2"
+          >
+            <div />
+          </div>
+          <div
+            class="azimuth-slowness-thumbnails__wrapper-3"
+            tabindex="0"
+          >
+            <div
+              class="fk-thumbnail "
+              style="width: 110px; height: 110px;"
+            >
+              <div
+                class="fk-thumbnail__label--reviewed"
+              >
+                ASAR P
+              </div>
+              <canvas
+                class="fk-thumbnail__canvas"
+                height="110"
+                width="110"
+              />
+            </div>
+            <div
+              class="fk-thumbnail "
+              style="width: 110px; height: 110px;"
+            >
+              <div
+                class="fk-thumbnail__label--reviewed"
+              >
+                ASAR Pg
+              </div>
+              <canvas
+                class="fk-thumbnail__canvas"
+                height="110"
+                width="110"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="azimuth-slowness-divider"
+    >
+      <div
+        class="azimuth-slowness-divider__spacer"
+      />
+    </div>
+    <div
+      class="bp4-non-ideal-state bp4-non-ideal-state-vertical"
+    >
+      <div
+        class="bp4-non-ideal-state-visual"
+        style="font-size: 48px; line-height: 48px;"
+      >
+        <span
+          aria-hidden="true"
+          class="bp4-icon bp4-icon-heat-grid"
+          icon="heat-grid"
+          tabindex="-1"
+        >
+          <svg
+            data-icon="heat-grid"
+            height="48"
+            role="img"
+            viewBox="0 0 20 20"
+            width="48"
+          >
+            <path
+              d="M14 12h6V8h-6v4zM0 12h6V8H0v4zm1-3h4v2H1V9zm-1 7c0 .55.45 1 1 1h5v-4H0v3zM19 3h-5v4h6V4c0-.55-.45-1-1-1zm0 3h-4V4h4v2zM0 4v3h6V3H1c-.55 0-1 .45-1 1zm7 3h6V3H7v4zm7 10h5c.55 0 1-.45 1-1v-3h-6v4zm-7 0h6v-4H7v4zm1-3h4v2H8v-2zm-1-2h6V8H7v4z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="bp4-non-ideal-state-text"
+      >
+        <h4
+          class="bp4-heading"
+        >
+          No FK data for selected SD
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;

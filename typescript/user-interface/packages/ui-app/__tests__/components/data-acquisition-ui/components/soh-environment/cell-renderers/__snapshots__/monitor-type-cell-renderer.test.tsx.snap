@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Monitor Type Cell Renderer should match snapshot for MonitorTypeCellRendererBase 1`] = `
+<div>
+  <div
+    data-cy="monitor-type-cell"
+  >
+    <div
+      class="table-cell soh-cell soh-cell__title
+        soh-cell--solid
+        soh-cell__title--good
+        soh-cell--good"
+      data-cell-contributing-status="contributing"
+      data-cell-status="good"
+      data-cy="table-cell"
+      data-received-status="not-received"
+      style="height: 36px; overflow: hidden;"
+      title=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Monitor Type Cell Renderer should match snapshot when calling monitorTypeCellRenderer 1`] = `
+<div>
+  <div
+    class="core-tooltip bp4-popover2-target"
+  >
+    <div
+      class="is-selected"
+    >
+      <div
+        data-cy="monitor-type-cell"
+      >
+        <div
+          class="table-cell soh-cell soh-cell__title
+        soh-cell--solid
+        soh-cell__title--good
+        soh-cell--good"
+          data-cell-contributing-status="contributing"
+          data-cell-status="good"
+          data-cy="table-cell"
+          data-received-status="not-received"
+          style="height: 36px; overflow: hidden;"
+          title=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

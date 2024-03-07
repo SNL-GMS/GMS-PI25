@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignalDetectionDetails renders with conflict icon and matches snapshot 1`] = `
+<div>
+  <div
+    class="signal-detection-details__container"
+  >
+    <div
+      class="form"
+    >
+      <h6
+        class="bp4-heading form__header"
+      >
+        <div>
+          Signal Detection Details
+        </div>
+        <div
+          class="form__header-decoration"
+        >
+          <span
+            class="bp4-popover2-target"
+          >
+            <div
+              class="signal-detection-swatch"
+              style="background-color: rgb(200, 118, 25);"
+              tabindex="0"
+            />
+          </span>
+          <span
+            class="signal-detection-swatch-label"
+          >
+            Associated to open event
+          </span>
+          <div
+            class="core-tooltip bp4-popover2-target"
+          >
+            <span
+              aria-hidden="true"
+              class="bp4-icon bp4-icon-issue signal-detection-details__conflicted"
+              icon="issue"
+              tabindex="0"
+            >
+              <svg
+                data-icon="issue"
+                height="16"
+                role="img"
+                viewBox="0 0 16 16"
+                width="16"
+              >
+                <path
+                  d="M8 16A8 8 0 118 0a8 8 0 010 16zm0-2A6 6 0 108 2a6 6 0 000 12zm1-2H7v-2h2v2zm0-3H7V4h2v5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </h6>
+      <div
+        class="form__panel-selector"
+      >
+        <div
+          class="bp4-button-group"
+        >
+          <button
+            class="bp4-button bp4-active"
+            type="button"
+            value="default"
+          >
+            <span
+              class="bp4-button-text"
+            >
+              Current Version
+            </span>
+          </button>
+          <button
+            class="bp4-button"
+            type="button"
+            value="All Versions"
+          >
+            <span
+              class="bp4-button-text"
+            >
+              All Versions
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="form-content"
+      >
+        <div
+          class="form-label"
+        >
+          Station:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          ASAR
+        </div>
+        <div
+          class="form-label"
+        >
+          Creation time:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          TBD
+        </div>
+        <div
+          class="form-label"
+        >
+          Phase:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          P
+        </div>
+        <div
+          class="form-label"
+        >
+          Detection time:
+        </div>
+        <div
+          class="form-value form-value--uneditable form-value--time monospace"
+          title=""
+        >
+          2021-11-10 00:16:44.000 ± 1.162s
+        </div>
+        <div
+          class="form-label"
+        >
+          Channel segment type:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          Fk beam
+        </div>
+        <div
+          class="form-label"
+        >
+          Author:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          TBD
+        </div>
+        <div
+          class="form-label"
+        >
+          Deleted:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          False
+        </div>
+        <div
+          class="form-label"
+        >
+          Associated event time:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          <div
+            class="signal-detection-details__event-time-content"
+          >
+            <span>
+              1970-01-01 01:00:00.000
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="form__buttons"
+      >
+        <div
+          class="form__buttons--right"
+        >
+          <button
+            class="bp4-button form__button"
+            data-cy="cancel-signal-detection details"
+            type="button"
+          >
+            <span
+              class="bp4-button-text"
+            >
+              Close
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SignalDetectionDetails shows N/A for associated event time if not associated to an event 1`] = `
+<div>
+  <div
+    class="signal-detection-details__container"
+  >
+    <div
+      class="form"
+    >
+      <h6
+        class="bp4-heading form__header"
+      >
+        <div>
+          Signal Detection Details
+        </div>
+        <div
+          class="form__header-decoration"
+        >
+          <span
+            class="bp4-popover2-target"
+          >
+            <div
+              class="signal-detection-swatch"
+              style="background-color: rgb(194, 48, 48);"
+              tabindex="0"
+            />
+          </span>
+          <span
+            class="signal-detection-swatch-label"
+          >
+            Unassociated
+          </span>
+        </div>
+      </h6>
+      <div
+        class="form__panel-selector"
+      >
+        <div
+          class="bp4-button-group"
+        >
+          <button
+            class="bp4-button bp4-active"
+            type="button"
+            value="default"
+          >
+            <span
+              class="bp4-button-text"
+            >
+              Current Version
+            </span>
+          </button>
+          <button
+            class="bp4-button"
+            type="button"
+            value="All Versions"
+          >
+            <span
+              class="bp4-button-text"
+            >
+              All Versions
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="form-content"
+      >
+        <div
+          class="form-label"
+        >
+          Station:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          ASAR
+        </div>
+        <div
+          class="form-label"
+        >
+          Creation time:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          TBD
+        </div>
+        <div
+          class="form-label"
+        >
+          Phase:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          Pg
+        </div>
+        <div
+          class="form-label"
+        >
+          Detection time:
+        </div>
+        <div
+          class="form-value form-value--uneditable form-value--time monospace"
+          title=""
+        >
+          2021-11-10 00:17:00.000 ± Unknown
+        </div>
+        <div
+          class="form-label"
+        >
+          Channel segment type:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          Fk beam
+        </div>
+        <div
+          class="form-label"
+        >
+          Author:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          TBD
+        </div>
+        <div
+          class="form-label"
+        >
+          Deleted:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          False
+        </div>
+        <div
+          class="form-label"
+        >
+          Associated event time:
+        </div>
+        <div
+          class="form-value form-value--uneditable"
+          title=""
+        >
+          <div
+            class="signal-detection-details__event-time-content"
+          >
+            <span>
+              N/A
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="form__buttons"
+      >
+        <div
+          class="form__buttons--right"
+        >
+          <button
+            class="bp4-button form__button"
+            data-cy="cancel-signal-detection details"
+            type="button"
+          >
+            <span
+              class="bp4-button-text"
+            >
+              Close
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

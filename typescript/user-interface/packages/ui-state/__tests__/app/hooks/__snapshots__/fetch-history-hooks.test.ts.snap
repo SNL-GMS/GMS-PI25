@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetch history hooks can use fetch history status 1`] = `
+{
+  "data": {
+    "test": {
+      "0": {
+        "arg": {
+          "name": "name0",
+        },
+        "error": undefined,
+        "status": "pending",
+      },
+      "1": {
+        "arg": {
+          "name": "name1",
+        },
+        "error": undefined,
+        "status": "fulfilled",
+      },
+      "2": {
+        "arg": {
+          "name": "name2",
+        },
+        "error": undefined,
+        "status": "fulfilled",
+      },
+      "3": {
+        "arg": {
+          "name": "name3",
+        },
+        "error": undefined,
+        "status": "fulfilled",
+      },
+      "4": {
+        "arg": {
+          "name": "name4",
+        },
+        "error": undefined,
+        "status": "fulfilled",
+      },
+      "5": {
+        "arg": {
+          "name": "name5",
+        },
+        "error": undefined,
+        "status": "pending",
+      },
+      "6": {
+        "arg": {
+          "name": "name6",
+        },
+        "error": undefined,
+        "status": "idle",
+      },
+    },
+  },
+  "fulfilled": 0,
+  "isError": false,
+  "isLoading": false,
+  "pending": 0,
+  "rejected": 0,
+}
+`;

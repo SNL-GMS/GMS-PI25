@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signal Detection Context Menus renders Signal Detection menus 1`] = `
+<div>
+  <div>
+    <div
+      class="bp4-context-menu2"
+    >
+      <div />
+    </div>
+    <div
+      class="bp4-context-menu2"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Signal Detection Context Menus renders Signal Detection menus 2`] = `
+<body
+  class=""
+>
+  <div>
+    <div>
+      <div
+        class="bp4-context-menu2"
+      >
+        <div />
+      </div>
+      <div
+        class="bp4-context-menu2"
+      >
+        <div />
+      </div>
+    </div>
+  </div>
+  <div
+    class="bp4-portal"
+  >
+    <div
+      class="bp4-context-menu2-virtual-target"
+    />
+  </div>
+  <div
+    class="bp4-portal"
+  >
+    <div
+      class="bp4-context-menu2-virtual-target"
+    />
+  </div>
+</body>
+`;

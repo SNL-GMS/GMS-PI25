@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FkLegend renders & matches snapshot 1`] = `
+<div>
+  <div
+    className="fk-legend"
+  >
+    <canvas
+      className="fk-legend__canvas"
+    />
+    <div
+      className="fk-legend-font__analyst"
+    >
+      Selected
+    </div>
+    <div
+      className="fk-legend-font__peak"
+    >
+      Peak
+    </div>
+    <div
+      className="fk-legend-font__predicted"
+    >
+      Predicted
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,755 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChannelFactory createBeamed creates a beamed channel as expected 1`] = `
+{
+  "canonicalName": "PDAR.BEAM.SHZ/beam,event,coherent/steer,backaz_10.000deg,slow_0.000s_per_deg/84c8a28cb6434e281a8343bc5d67a78644e8a41eee2da789b628c41109b3bcf2",
+  "channelBandType": "SHORT_PERIOD",
+  "channelDataType": "SEISMIC",
+  "channelInstrumentType": "HIGH_GAIN_SEISMOMETER",
+  "channelOrientationCode": "Z",
+  "channelOrientationType": "VERTICAL",
+  "configuredInputs": [
+    {
+      "effectiveAt": 1636503404,
+      "name": "PDAR.PD01.SHZ",
+    },
+    {
+      "effectiveAt": 1636503404,
+      "name": "PDAR.PD02.SHZ",
+    },
+  ],
+  "description": "PDAR EVENT beamed for event hypothesisID, signal detection hypothesis 20cc9505-efe3-3068-b7d5-59196f37992c,at location 42.76738/-109.5579 P, back azimuth 10deg, slowness 0sec/deg, COHERENT, true.",
+  "effectiveAt": 1636503404,
+  "effectiveForRequestTime": 1636503405,
+  "effectiveUntil": 1660701599.984,
+  "location": {
+    "depthKm": 0,
+    "elevationKm": 2.215,
+    "latitudeDegrees": 42.76738,
+    "longitudeDegrees": -109.5579,
+  },
+  "name": "PDAR.BEAM.SHZ/beam,event,coherent/steer,backaz_10.000deg,slow_0.000s_per_deg/84c8a28cb6434e281a8343bc5d67a78644e8a41eee2da789b628c41109b3bcf2",
+  "nominalSampleRateHz": 25,
+  "orientationAngles": {
+    "horizontalAngleDeg": 90,
+  },
+  "processingDefinition": {
+    "beamSummation": "COHERENT",
+    "beamType": "EVENT",
+    "eventHypothesis": {
+      "associatedSignalDetectionHypotheses": [
+        {
+          "id": {
+            "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+            "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+          },
+        },
+      ],
+      "deleted": false,
+      "id": {
+        "eventId": "eventID",
+        "hypothesisId": "hypothesisID",
+      },
+      "locationSolutions": [
+        {
+          "featurePredictions": {
+            "featurePredictions": [],
+          },
+          "id": "locationSolutionID",
+          "location": {
+            "depthKm": 3.3,
+            "latitudeDegrees": 1.1,
+            "longitudeDegrees": 2.2,
+            "time": 3600,
+          },
+          "locationBehaviors": [],
+          "locationRestraint": undefined,
+          "networkMagnitudeSolutions": [
+            {
+              "magnitude": {
+                "standardDeviation": 0,
+                "units": "MAGNITUDE",
+                "value": 1.2,
+              },
+              "magnitudeBehaviors": [],
+              "type": "MB",
+            },
+          ],
+        },
+      ],
+      "parentEventHypotheses": [],
+      "preferredLocationSolution": {
+        "featurePredictions": {
+          "featurePredictions": [],
+        },
+        "id": "locationSolutionID",
+        "location": {
+          "depthKm": 3.3,
+          "latitudeDegrees": 1.1,
+          "longitudeDegrees": 2.2,
+          "time": 3600,
+        },
+        "locationBehaviors": [],
+        "locationRestraint": undefined,
+        "networkMagnitudeSolutions": [
+          {
+            "magnitude": {
+              "standardDeviation": 0,
+              "units": "MAGNITUDE",
+              "value": 1.2,
+            },
+            "magnitudeBehaviors": [],
+            "type": "MB",
+          },
+        ],
+      },
+      "rejected": false,
+    },
+    "location": {
+      "depthKm": 0,
+      "elevationKm": 2.215,
+      "latitudeDegrees": 42.76738,
+      "longitudeDegrees": -109.5579,
+    },
+    "minWaveformsToBeam": 0,
+    "orientationAngleToleranceDeg": 5,
+    "orientationAngles": {
+      "horizontalAngleDeg": 90,
+    },
+    "phase": "P",
+    "receiverToSourceAzimuthDeg": 10,
+    "sampleRateHz": 25,
+    "sampleRateToleranceHz": 1,
+    "samplingType": "SNAPPED",
+    "signalDetectionHypothesis": {
+      "deleted": false,
+      "featureMeasurements": [
+        {
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "LONG_PERIOD_FIRST_MOTION",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "confidence": null,
+            "referenceTime": 1636503404,
+            "value": "INDETERMINATE",
+          },
+          "snr": null,
+        },
+        {
+          "analysisWaveform": {
+            "filterDefinition": undefined,
+            "filterDefinitionUsage": undefined,
+            "waveform": {
+              "id": {
+                "channel": {
+                  "effectiveAt": 1636503404,
+                  "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                },
+                "creationTime": 1636503404,
+                "endTime": 1636503704,
+                "startTime": 1636503404,
+              },
+            },
+          },
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "ARRIVAL_TIME",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "arrivalTime": {
+              "standardDeviation": 1.162,
+              "value": 1636503404,
+            },
+            "travelTime": null,
+          },
+          "snr": {
+            "standardDeviation": null,
+            "units": "DECIBELS",
+            "value": 8.9939442,
+          },
+        },
+        {
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "PHASE",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "confidence": 50,
+            "referenceTime": 1636503404,
+            "value": "P",
+          },
+          "snr": null,
+        },
+        {
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "SHORT_PERIOD_FIRST_MOTION",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "confidence": null,
+            "referenceTime": 1636503404,
+            "value": "INDETERMINATE",
+          },
+          "snr": null,
+        },
+        {
+          "analysisWaveform": {
+            "filterDefinition": undefined,
+            "filterDefinitionUsage": undefined,
+            "waveform": {
+              "id": {
+                "channel": {
+                  "effectiveAt": 1636503404,
+                  "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                },
+                "creationTime": 1636503404,
+                "endTime": 1636503704,
+                "startTime": 1636503404,
+              },
+            },
+          },
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "measuredValue": {
+              "standardDeviation": 2.2089042,
+              "units": "DEGREES",
+              "value": 90.142121,
+            },
+            "referenceTime": null,
+          },
+          "snr": null,
+        },
+        {
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "EMERGENCE_ANGLE",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "measuredValue": {
+              "standardDeviation": null,
+              "units": "DEGREES",
+              "value": -1,
+            },
+            "referenceTime": null,
+          },
+          "snr": null,
+        },
+        {
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "SLOWNESS",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "measuredValue": {
+              "standardDeviation": 0.27,
+              "units": "SECONDS_PER_DEGREE",
+              "value": 7.1219535,
+            },
+            "referenceTime": null,
+          },
+          "snr": null,
+        },
+        {
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "RECTILINEARITY",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "measuredValue": {
+              "standardDeviation": null,
+              "units": "UNITLESS",
+              "value": -1,
+            },
+            "referenceTime": null,
+          },
+          "snr": null,
+        },
+        {
+          "channel": {
+            "effectiveAt": 1636503404,
+            "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+          },
+          "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+          "measuredChannelSegment": {
+            "id": {
+              "channel": {
+                "effectiveAt": 1636503404,
+                "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+              },
+              "creationTime": 1636503404,
+              "endTime": 1636503704,
+              "startTime": 1636503404,
+            },
+          },
+          "measurementValue": {
+            "amplitude": {
+              "standardDeviation": 0.5,
+              "units": "MAGNITUDE",
+              "value": 5,
+            },
+            "clipped": false,
+            "measurementTime": 1636503404,
+            "measurementWindowDuration": 6,
+            "measurementWindowStart": 1636503404,
+            "period": 0.25,
+          },
+          "snr": {
+            "standardDeviation": null,
+            "units": "DECIBELS",
+            "value": 8.9939442,
+          },
+        },
+      ],
+      "id": {
+        "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+        "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+      },
+      "monitoringOrganization": "GMS",
+      "parentSignalDetectionHypothesis": null,
+      "station": {
+        "effectiveAt": null,
+        "name": "ASAR",
+      },
+    },
+    "slownessSecPerDeg": 0,
+    "twoDimensional": true,
+  },
+  "processingMetadata": {
+    "BEAM_EVENT_HYPOTHESIS_ID": {
+      "eventId": "eventID",
+      "hypothesisId": "hypothesisID",
+    },
+    "BEAM_LOCATION": {
+      "depthKm": 0,
+      "elevationKm": 2.215,
+      "latitudeDegrees": 42.76738,
+      "longitudeDegrees": -109.5579,
+    },
+    "BEAM_PHASE": "P",
+    "BEAM_SIGNAL_DETECTION_HYPOTHESIS_ID": {
+      "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+      "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+    },
+    "BEAM_SUMMATION": "COHERENT",
+    "BEAM_TYPE": "EVENT",
+    "CHANNEL_GROUP": "PD01",
+    "STEERING_BACK_AZIMUTH": 10,
+    "STEERING_SLOWNESS": 0,
+  },
+  "response": undefined,
+  "station": {
+    "allRawChannels": [
+      {
+        "canonicalName": "PDAR.PD01.SHZ",
+        "channelBandType": "SHORT_PERIOD",
+        "channelDataType": "SEISMIC",
+        "channelInstrumentType": "HIGH_GAIN_SEISMOMETER",
+        "channelOrientationCode": "Z",
+        "channelOrientationType": "VERTICAL",
+        "configuredInputs": [],
+        "description": "Raw Channel created from ReferenceChannel 2fabc2d3-858b-3e85-9f47-e2ee72060f0b with version d767395c-850e-36f8-a6f2-a1c7398440e4",
+        "effectiveAt": 1636503404,
+        "effectiveForRequestTime": 1636503405,
+        "effectiveUntil": 1660701599.984,
+        "location": {
+          "depthKm": 0.0381,
+          "elevationKm": 2.192,
+          "latitudeDegrees": 42.7765,
+          "longitudeDegrees": -109.58314,
+        },
+        "name": "PDAR.PD01.SHZ",
+        "nominalSampleRateHz": 20,
+        "orientationAngles": {
+          "horizontalAngleDeg": -1,
+          "verticalAngleDeg": 0,
+        },
+        "processingDefinition": {},
+        "processingMetadata": {
+          "BEAM_EVENT_HYPOTHESIS_ID": {
+            "eventId": "eventID",
+            "hypothesisId": "hypothesisID",
+          },
+          "BEAM_LOCATION": {
+            "depthKm": 0,
+            "elevationKm": 2.215,
+            "latitudeDegrees": 42.76738,
+            "longitudeDegrees": -109.5579,
+          },
+          "BEAM_PHASE": "P",
+          "BEAM_SIGNAL_DETECTION_HYPOTHESIS_ID": {
+            "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+            "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+          },
+          "BEAM_SUMMATION": "COHERENT",
+          "BEAM_TYPE": "EVENT",
+          "CHANNEL_GROUP": "PD01",
+          "STEERING_BACK_AZIMUTH": 10,
+          "STEERING_SLOWNESS": 0,
+        },
+        "station": {
+          "name": "PDAR",
+        },
+        "units": "NANOMETERS_PER_COUNT",
+      },
+      {
+        "canonicalName": "PDAR.PD02.SHZ",
+        "channelBandType": "SHORT_PERIOD",
+        "channelDataType": "SEISMIC",
+        "channelInstrumentType": "HIGH_GAIN_SEISMOMETER",
+        "channelOrientationCode": "Z",
+        "channelOrientationType": "VERTICAL",
+        "configuredInputs": [],
+        "description": "Raw Channel created from ReferenceChannel 04abdfb2-0fac-37cd-8b9e-18a997362ea6 with version d621a702-3f21-34ba-8bae-fd242438152b",
+        "effectiveAt": 1636503404,
+        "effectiveForRequestTime": 1636503405,
+        "effectiveUntil": 1660701599.984,
+        "location": {
+          "depthKm": 0.0381,
+          "elevationKm": 2.207,
+          "latitudeDegrees": 42.77818,
+          "longitudeDegrees": -109.5663,
+        },
+        "name": "PDAR.PD02.SHZ",
+        "nominalSampleRateHz": 20,
+        "orientationAngles": {
+          "horizontalAngleDeg": -1,
+          "verticalAngleDeg": 0,
+        },
+        "processingDefinition": {},
+        "processingMetadata": {
+          "CHANNEL_GROUP": "PD02",
+        },
+        "station": {
+          "name": "PDAR",
+        },
+        "units": "NANOMETERS_PER_COUNT",
+      },
+      {
+        "canonicalName": "PDAR.PD03.SHZ",
+        "channelBandType": "SHORT_PERIOD",
+        "channelDataType": "SEISMIC",
+        "channelInstrumentType": "HIGH_GAIN_SEISMOMETER",
+        "channelOrientationCode": "Z",
+        "channelOrientationType": "VERTICAL",
+        "configuredInputs": [],
+        "description": "Raw Channel created from ReferenceChannel a8c4a1f5-ff8c-330d-8e83-cb07b88da81f with version 11105cfd-4a56-38f6-82b4-0c56caec0057",
+        "effectiveAt": 1636503404,
+        "effectiveUntil": 1660701599.984,
+        "location": {
+          "depthKm": 0.0381,
+          "elevationKm": 2.286,
+          "latitudeDegrees": 42.77582,
+          "longitudeDegrees": -109.5495,
+        },
+        "name": "PDAR.PD03.SHZ",
+        "nominalSampleRateHz": 20,
+        "orientationAngles": {
+          "horizontalAngleDeg": -1,
+          "verticalAngleDeg": 0,
+        },
+        "processingDefinition": {},
+        "processingMetadata": {
+          "CHANNEL_GROUP": "PD03",
+        },
+        "station": {
+          "name": "PDAR",
+        },
+        "units": "NANOMETERS_PER_COUNT",
+      },
+    ],
+    "channelGroups": [
+      {
+        "channels": [
+          {
+            "canonicalName": "PDAR.PD01.SHZ",
+            "channelBandType": "SHORT_PERIOD",
+            "channelDataType": "SEISMIC",
+            "channelInstrumentType": "HIGH_GAIN_SEISMOMETER",
+            "channelOrientationCode": "Z",
+            "channelOrientationType": "VERTICAL",
+            "configuredInputs": [],
+            "description": "Raw Channel created from ReferenceChannel 2fabc2d3-858b-3e85-9f47-e2ee72060f0b with version d767395c-850e-36f8-a6f2-a1c7398440e4",
+            "effectiveAt": 1636503404,
+            "effectiveForRequestTime": 1636503405,
+            "effectiveUntil": 1660701599.984,
+            "location": {
+              "depthKm": 0.0381,
+              "elevationKm": 2.192,
+              "latitudeDegrees": 42.7765,
+              "longitudeDegrees": -109.58314,
+            },
+            "name": "PDAR.PD01.SHZ",
+            "nominalSampleRateHz": 20,
+            "orientationAngles": {
+              "horizontalAngleDeg": -1,
+              "verticalAngleDeg": 0,
+            },
+            "processingDefinition": {},
+            "processingMetadata": {
+              "BEAM_EVENT_HYPOTHESIS_ID": {
+                "eventId": "eventID",
+                "hypothesisId": "hypothesisID",
+              },
+              "BEAM_LOCATION": {
+                "depthKm": 0,
+                "elevationKm": 2.215,
+                "latitudeDegrees": 42.76738,
+                "longitudeDegrees": -109.5579,
+              },
+              "BEAM_PHASE": "P",
+              "BEAM_SIGNAL_DETECTION_HYPOTHESIS_ID": {
+                "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+                "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+              },
+              "BEAM_SUMMATION": "COHERENT",
+              "BEAM_TYPE": "EVENT",
+              "CHANNEL_GROUP": "PD01",
+              "STEERING_BACK_AZIMUTH": 10,
+              "STEERING_SLOWNESS": 0,
+            },
+            "station": {
+              "name": "PDAR",
+            },
+            "units": "NANOMETERS_PER_COUNT",
+          },
+        ],
+        "description": "Pinedale,_Wyoming:_USA_array_element",
+        "effectiveAt": 1636503404,
+        "effectiveUntil": 1660701599.984,
+        "location": {
+          "depthKm": 0,
+          "elevationKm": 2.192,
+          "latitudeDegrees": 42.7765,
+          "longitudeDegrees": -109.58314,
+        },
+        "name": "PD01",
+        "type": "SITE_GROUP",
+      },
+      {
+        "channels": [
+          {
+            "canonicalName": "PDAR.PD02.SHZ",
+            "channelBandType": "SHORT_PERIOD",
+            "channelDataType": "SEISMIC",
+            "channelInstrumentType": "HIGH_GAIN_SEISMOMETER",
+            "channelOrientationCode": "Z",
+            "channelOrientationType": "VERTICAL",
+            "configuredInputs": [],
+            "description": "Raw Channel created from ReferenceChannel 04abdfb2-0fac-37cd-8b9e-18a997362ea6 with version d621a702-3f21-34ba-8bae-fd242438152b",
+            "effectiveAt": 1636503404,
+            "effectiveForRequestTime": 1636503405,
+            "effectiveUntil": 1660701599.984,
+            "location": {
+              "depthKm": 0.0381,
+              "elevationKm": 2.207,
+              "latitudeDegrees": 42.77818,
+              "longitudeDegrees": -109.5663,
+            },
+            "name": "PDAR.PD02.SHZ",
+            "nominalSampleRateHz": 20,
+            "orientationAngles": {
+              "horizontalAngleDeg": -1,
+              "verticalAngleDeg": 0,
+            },
+            "processingDefinition": {},
+            "processingMetadata": {
+              "CHANNEL_GROUP": "PD02",
+            },
+            "station": {
+              "name": "PDAR",
+            },
+            "units": "NANOMETERS_PER_COUNT",
+          },
+        ],
+        "description": "Pinedale,_Wyoming:_USA_array_element",
+        "effectiveAt": 1636503404,
+        "effectiveUntil": 1660701599.984,
+        "location": {
+          "depthKm": 0,
+          "elevationKm": 2.207,
+          "latitudeDegrees": 42.77818,
+          "longitudeDegrees": -109.5663,
+        },
+        "name": "PD02",
+        "type": "SITE_GROUP",
+      },
+      {
+        "channels": [
+          {
+            "canonicalName": "PDAR.PD03.SHZ",
+            "channelBandType": "SHORT_PERIOD",
+            "channelDataType": "SEISMIC",
+            "channelInstrumentType": "HIGH_GAIN_SEISMOMETER",
+            "channelOrientationCode": "Z",
+            "channelOrientationType": "VERTICAL",
+            "configuredInputs": [],
+            "description": "Raw Channel created from ReferenceChannel a8c4a1f5-ff8c-330d-8e83-cb07b88da81f with version 11105cfd-4a56-38f6-82b4-0c56caec0057",
+            "effectiveAt": 1636503404,
+            "effectiveUntil": 1660701599.984,
+            "location": {
+              "depthKm": 0.0381,
+              "elevationKm": 2.286,
+              "latitudeDegrees": 42.77582,
+              "longitudeDegrees": -109.5495,
+            },
+            "name": "PDAR.PD03.SHZ",
+            "nominalSampleRateHz": 20,
+            "orientationAngles": {
+              "horizontalAngleDeg": -1,
+              "verticalAngleDeg": 0,
+            },
+            "processingDefinition": {},
+            "processingMetadata": {
+              "CHANNEL_GROUP": "PD03",
+            },
+            "station": {
+              "name": "PDAR",
+            },
+            "units": "NANOMETERS_PER_COUNT",
+          },
+        ],
+        "description": "Pinedale,_Wyoming:_USA_array_element",
+        "effectiveAt": 1636503404,
+        "effectiveUntil": 1660701599.984,
+        "location": {
+          "depthKm": 0,
+          "elevationKm": 2.286,
+          "latitudeDegrees": 42.77582,
+          "longitudeDegrees": -109.5495,
+        },
+        "name": "PD03",
+        "type": "SITE_GROUP",
+      },
+    ],
+    "description": "Pinedale,_Wyoming:_USA_array_element",
+    "effectiveAt": 1636503404,
+    "effectiveUntil": 1660701599.984,
+    "location": {
+      "depthKm": 0,
+      "elevationKm": 2.215,
+      "latitudeDegrees": 42.76738,
+      "longitudeDegrees": -109.5579,
+    },
+    "name": "PDAR",
+    "relativePositionsByChannel": {
+      "PDAR.PD01.SHZ": {
+        "eastDisplacementKm": -2.066,
+        "northDisplacementKm": 1.014,
+        "verticalDisplacementKm": 0,
+      },
+      "PDAR.PD02.SHZ": {
+        "eastDisplacementKm": -0.688,
+        "northDisplacementKm": 1.201,
+        "verticalDisplacementKm": 0,
+      },
+      "PDAR.PD03.SHZ": {
+        "eastDisplacementKm": 0.688,
+        "northDisplacementKm": 0.939,
+        "verticalDisplacementKm": 0,
+      },
+    },
+    "type": "SEISMIC_ARRAY",
+  },
+  "units": "NANOMETERS_PER_COUNT",
+}
+`;

@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`state data acquisition slice initial state is correct 1`] = `
+{
+  "data": {
+    "sohStatus": {
+      "isStale": true,
+      "lastUpdated": 0,
+      "loading": true,
+      "stationAndStationGroupSoh": {
+        "isUpdateResponse": false,
+        "stationGroups": [],
+        "stationSoh": [],
+      },
+    },
+  },
+  "filtersToDisplay": {
+    "soh-environment-channel-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-environment-monitor-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-lag": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-missing": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-overview": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-timeliness": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "station-statistics": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+  },
+  "selectedAceiType": null,
+  "selectedProcessingStation": null,
+  "stationStatisticsColumns": {
+    "Channel Issues": true,
+    "Channel Lag": true,
+    "Channel Missing": true,
+    "Channel Timeliness": true,
+    "Station": true,
+    "Station Issues": true,
+    "Station Lag": true,
+    "Station Missing": true,
+    "Station Timeliness": true,
+  },
+  "stationStatisticsGroup": undefined,
+  "unmodifiedProcessingStation": null,
+}
+`;
+
+exports[`state data acquisition slice should return the initial state 1`] = `
+{
+  "data": {
+    "sohStatus": {
+      "isStale": true,
+      "lastUpdated": 0,
+      "loading": true,
+      "stationAndStationGroupSoh": {
+        "isUpdateResponse": false,
+        "stationGroups": [],
+        "stationSoh": [],
+      },
+    },
+  },
+  "filtersToDisplay": {
+    "soh-environment-channel-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-environment-monitor-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-lag": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-missing": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-overview": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-timeliness": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "station-statistics": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+  },
+  "selectedAceiType": null,
+  "selectedProcessingStation": null,
+  "stationStatisticsColumns": {
+    "Channel Issues": true,
+    "Channel Lag": true,
+    "Channel Missing": true,
+    "Channel Timeliness": true,
+    "Station": true,
+    "Station Issues": true,
+    "Station Lag": true,
+    "Station Missing": true,
+    "Station Timeliness": true,
+  },
+  "stationStatisticsGroup": undefined,
+  "unmodifiedProcessingStation": null,
+}
+`;
+
+exports[`state data acquisition slice should return the initial state 2`] = `
+{
+  "data": {
+    "sohStatus": {
+      "isStale": true,
+      "lastUpdated": 0,
+      "loading": true,
+      "stationAndStationGroupSoh": {
+        "isUpdateResponse": false,
+        "stationGroups": [],
+        "stationSoh": [],
+      },
+    },
+  },
+  "filtersToDisplay": {
+    "soh-environment-channel-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-environment-monitor-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-lag": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-missing": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-overview": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-timeliness": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "station-statistics": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+  },
+  "selectedAceiType": null,
+  "selectedProcessingStation": null,
+  "stationStatisticsColumns": {
+    "Channel Issues": true,
+    "Channel Lag": true,
+    "Channel Missing": true,
+    "Channel Timeliness": true,
+    "Station": true,
+    "Station Issues": true,
+    "Station Lag": true,
+    "Station Missing": true,
+    "Station Timeliness": true,
+  },
+  "stationStatisticsGroup": undefined,
+  "unmodifiedProcessingStation": null,
+}
+`;
+
+exports[`state data acquisition slice should return the initial state 3`] = `
+{
+  "data": {
+    "sohStatus": {
+      "isStale": true,
+      "lastUpdated": 0,
+      "loading": true,
+      "stationAndStationGroupSoh": {
+        "isUpdateResponse": false,
+        "stationGroups": [],
+        "stationSoh": [],
+      },
+    },
+  },
+  "filtersToDisplay": {
+    "soh-environment-channel-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-environment-monitor-statuses": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-lag": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-missing": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "soh-overview": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+    "soh-timeliness": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+    },
+    "station-statistics": {
+      "BAD": true,
+      "GOOD": true,
+      "MARGINAL": true,
+      "NONE": true,
+    },
+  },
+  "selectedAceiType": null,
+  "selectedProcessingStation": null,
+  "stationStatisticsColumns": {
+    "Channel Issues": true,
+    "Channel Lag": true,
+    "Channel Missing": true,
+    "Channel Timeliness": true,
+    "Station": true,
+    "Station Issues": true,
+    "Station Lag": true,
+    "Station Missing": true,
+    "Station Timeliness": true,
+  },
+  "stationStatisticsGroup": undefined,
+  "unmodifiedProcessingStation": null,
+}
+`;

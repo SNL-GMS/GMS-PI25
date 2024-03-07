@@ -1,0 +1,16 @@
+plugins {
+    id ('application')
+    alias(libs.plugins.com.palantir.docker)
+}
+
+mainClassName = "gms.shared.fk.control.service.Application"
+
+dependencies {
+    implementation project(':frameworks-control')
+    
+    implementation project(':fk-control-api')
+    implementation project(':fk-control')
+
+    runtimeOnly libs.ch.qos.logback.logback.classic
+    runtimeOnly libs.net.logstash.logback.logstash.logback.encoder
+}

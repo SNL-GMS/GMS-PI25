@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api project(':user-preferences-api')
+    api project(':frameworks-system-config')
+    
+    api libs.io.hypersistence.hypersistence.utils.hibernate62
+    api libs.org.hibernate.orm.hibernate.core
+    api libs.org.apache.commons.commons.lang3
+    
+    implementation project(':user-preferences-coi')
+    implementation project(':frameworks-osd-commonobjects')
+}

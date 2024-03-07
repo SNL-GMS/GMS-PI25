@@ -1,0 +1,43 @@
+SCHEMA = css
+Tables = SITE:idcidcx, SITECHAN:idcidcx, WFDISC:idcidcx
+ORACLE_HOME_PATH = /app/client/xxx/product/12.2.0/client_1
+TNS_ADMIN_PATH = /app/client/xxx/product/12.2.0/client_1/network/admin
+DB_PASSWORD = XXX_GMS:pwd@dwpr2
+
+# If database archive is mounted, provide the name of the volume. If unsure what volume name is, cd to the 
+# /Volumes directory. If database is not being mounted, path will automatically be retrieved from database.
+
+MOUNT_ARCHIVE = waveform
+
+# Set the reference time to the desired start time of the detection processing.
+
+reference_start_time = 2010-01-22T00:15:00
+reference_end_time =   2010-01-22T00:20:00
+
+
+# Stat names
+IM.ARA0.00.sz
+IM.ARA1.00.sz
+IM.ARA2.00.sz
+IM.ARA3.00.sz
+IM.ARB1.00.sz
+IM.ARB2.00.sz
+IM.ARB3.00.sz
+IM.ARB4.00.sz
+IM.ARB5.00.sz
+IM.ARC1.00.sz
+IM.ARC2.00.sz
+IM.ARC3.00.sz
+IM.ARC4.00.sz
+IM.ARC5.00.sz
+IM.ARC6.00.sz
+IM.ARC7.00.sz
+IM.ARD1.00.sz
+IM.ARD2.00.sz
+IM.ARD3.00.sz
+IM.ARD4.00.sz
+IM.ARD5.00.sz
+IM.ARD6.00.sz
+IM.ARD7.00.sz
+IM.ARD8.00.sz
+IM.ARD9.00.sz

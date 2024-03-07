@@ -1,0 +1,38 @@
+{
+    "name": "txar-al2-scan",
+    "constraints": [
+        {
+            "constraintType": "STRING",
+            "criterion": "station",
+            "operator": {
+                "type": "EQ",
+                "negated": false
+            },
+            "value": [
+                "TXAR"
+            ],
+            "priority": 100
+        },
+        {
+            "constraintType": "STRING",
+            "criterion": "activity",
+            "operator": {
+                "type": "EQ",
+                "negated": false
+            },
+            "value": [
+                "AL2 Scan"
+            ],
+            "priority": 100
+        }
+    ],
+    "parameters": {
+        "phases": [
+            "P",
+            "Pg",
+            "I",
+            "L",
+            "P3KP"
+        ]
+    }
+}

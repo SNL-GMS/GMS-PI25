@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`finds qc segments by channel and time build a builder using addGetChannelSegmentsByChannelReducers 1`] = `
+Map {
+  "qcSegment/findQCSegmentsByChannelAndTimeRange/pending" => [Function],
+  "qcSegment/findQCSegmentsByChannelAndTimeRange/fulfilled" => [Function],
+  "qcSegment/findQCSegmentsByChannelAndTimeRange/rejected" => [Function],
+}
+`;
+
+exports[`finds qc segments by channel and time build a builder using addGetChannelSegmentsByChannelReducers 2`] = `
+{
+  "queries": {
+    "findQCSegmentsByChannelAndTimeRange": {
+      "0": {
+        "12345": {
+          "arg": {
+            "startTime": 0,
+          },
+          "error": undefined,
+          "status": "pending",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`finds qc segments by channel and time build a builder using addGetChannelSegmentsByChannelReducers 3`] = `
+{
+  "queries": {
+    "findQCSegmentsByChannelAndTimeRange": {
+      "0": {
+        "12345": {
+          "arg": {
+            "startTime": 0,
+          },
+          "error": undefined,
+          "status": "fulfilled",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`finds qc segments by channel and time build a builder using addGetChannelSegmentsByChannelReducers 4`] = `
+{
+  "queries": {
+    "findQCSegmentsByChannelAndTimeRange": {
+      "0": {
+        "12345": {
+          "arg": {
+            "startTime": 0,
+          },
+          "error": undefined,
+          "status": "rejected",
+        },
+      },
+    },
+  },
+}
+`;

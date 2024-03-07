@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+dependencies {
+        
+    api project(':bridge-utilities')
+    api project(':station-definition-dao')
+
+    // JPA dependencies
+    implementation project(':metrics')
+    implementation libs.org.springframework.spring.context
+
+    // Testing.
+    testImplementation libs.com.h2database.h2
+}

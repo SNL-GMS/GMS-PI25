@@ -1,0 +1,18 @@
+name: genf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.8
+  - cx_Oracle
+  - numpy=1.21.5 # pinned at 1.21.* due to this issue in obspy 1.2.2 https://github.com/obspy/obspy/issues/2959
+  - matplotlib
+  - numba=0.55.1
+  - obspy=1.2.2
+  - scipy
+  - sqlalchemy=1.4.44
+  - pip:
+    - pisces==0.4.0
+    - e1
+

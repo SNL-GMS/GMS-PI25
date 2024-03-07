@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "asf.apache-netbeans-java",
+        "blakeh.jump-to-test",
+        "eamodio.gitlens",
+        "ms-vscode.live-server",
+        "sonarsource.sonarlint-vscode",
+        "vscjava.vscode-gradle",
+        "vscode-icons-team.vscode-icons"
+    ]
+}

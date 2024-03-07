@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weavess Waveform Renderer calls render waveforms from updateAmplitude 1`] = `
+[
+  {
+    "bottomMax": 1,
+    "channelAvg": 5.5,
+    "channelSegmentId": "Unfiltered",
+    "offset": 10,
+    "samplesCount": 10,
+    "topMax": 10,
+  },
+]
+`;
+
+exports[`Weavess Waveform Renderer calls render waveforms from updateAmplitude with no channel segment boundaries 1`] = `
+Map {
+  "Unfiltered" => [
+    {
+      "bottomMax": 1,
+      "channelAvg": 5.5,
+      "channelSegmentId": "Unfiltered",
+      "offset": 10,
+      "samplesCount": 10,
+      "topMax": 10,
+    },
+  ],
+}
+`;
+
+exports[`Weavess Waveform Renderer renders 1`] = `<div />`;

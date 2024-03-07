@@ -1,0 +1,24 @@
+23 50.7012000   29.2242000
+AK01  BHZ     
+AK02  BHZ     
+AK03  BHZ     
+AK04  BHZ     
+AK05  BHZ     
+AK06  BHZ     
+AK07  BHZ     
+AK08  BHZ     
+AK09  BHZ     
+AK10  BHZ     
+AK11  BHZ     
+AK12  BHZ     
+AK13  BHZ     
+AK14  BHZ     
+AK15  BHZ     
+AK16  BHZ     
+AK17  BHZ     
+AK18  BHZ     
+AK19  BHZ     
+AK20  BHZ     
+AK21  BHZ     
+AK22  BHZ     
+AK23  BHZ     

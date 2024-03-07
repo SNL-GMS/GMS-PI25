@@ -1,0 +1,2788 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weavess Y Axis renders 1`] = `
+<div>
+  <div
+    class="y-axis"
+    data-cy="y-axis"
+    data-max="100"
+    data-min="0"
+    style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+  >
+    <svg
+      height="100%"
+      width="50"
+    >
+      <g
+        class="y-axis__ordinate"
+        height="100%"
+        transform="translate(49,0)"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Weavess Y Axis try to display a large range without ticks 1`] = `
+<div>
+  <div
+    class="y-axis"
+    data-cy="y-axis"
+    data-max="100"
+    data-min="0"
+    style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+  >
+    <svg
+      height="100%"
+      width="50"
+    >
+      <g
+        class="y-axis__ordinate"
+        height="100%"
+        transform="translate(49,0)"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Weavess Y Axis try to display a negative with no ticks 1`] = `
+<div>
+  <div
+    class="y-axis"
+    data-cy="y-axis"
+    data-max="0"
+    data-min="-0.05"
+    style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+  >
+    <svg
+      height="100%"
+      width="50"
+    >
+      <g
+        class="y-axis__ordinate"
+        height="100%"
+        transform="translate(49,0)"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Weavess Y Axis try to handle where min amplitude is undefined 1`] = `
+YAxis {
+  "_reactInternalInstance": {},
+  "_reactInternals": FiberNode {
+    "_debugHookTypes": null,
+    "_debugNeedsRemount": false,
+    "_debugOwner": FiberNode {
+      "_debugHookTypes": null,
+      "_debugNeedsRemount": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": [Circular],
+      "childLanes": 0,
+      "deletions": null,
+      "dependencies": null,
+      "elementType": [Function],
+      "flags": 4194309,
+      "index": 0,
+      "key": null,
+      "lanes": 0,
+      "memoizedProps": {
+        "Component": [Function],
+        "context": null,
+        "onRenderCb": [Function],
+        "props": {
+          "getIsZooming": [MockFunction] {
+            "calls": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+            ],
+            "results": [
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+            ],
+          },
+          "heightInPercentage": 100,
+          "maxAmplitude": 100,
+          "minAmplitude": undefined,
+          "yAxisTicks": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+          ],
+        },
+        "refProp": null,
+        "wrappingComponentProps": null,
+      },
+      "memoizedState": {
+        "context": null,
+        "mount": true,
+        "props": {
+          "getIsZooming": [MockFunction] {
+            "calls": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+            ],
+            "results": [
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+            ],
+          },
+          "heightInPercentage": 100,
+          "maxAmplitude": 100,
+          "minAmplitude": undefined,
+          "yAxisTicks": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+          ],
+        },
+        "wrappingComponentProps": null,
+      },
+      "mode": 1,
+      "pendingProps": {
+        "Component": [Function],
+        "context": null,
+        "onRenderCb": [Function],
+        "props": {
+          "getIsZooming": [MockFunction] {
+            "calls": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+            ],
+            "results": [
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+            ],
+          },
+          "heightInPercentage": 100,
+          "maxAmplitude": 100,
+          "minAmplitude": undefined,
+          "yAxisTicks": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+          ],
+        },
+        "refProp": null,
+        "wrappingComponentProps": null,
+      },
+      "ref": null,
+      "return": FiberNode {
+        "_debugHookTypes": null,
+        "_debugNeedsRemount": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childLanes": 0,
+          "deletions": null,
+          "dependencies": null,
+          "elementType": null,
+          "flags": 0,
+          "index": 0,
+          "key": null,
+          "lanes": 16,
+          "memoizedProps": null,
+          "memoizedState": {
+            "cache": null,
+            "element": null,
+            "isDehydrated": false,
+            "pendingSuspenseBoundaries": null,
+            "transitions": null,
+          },
+          "mode": 1,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": FiberRootNode {
+            "_debugRootType": "createRoot()",
+            "callbackNode": null,
+            "callbackPriority": 0,
+            "containerInfo": <div>
+              <div
+                class="y-axis"
+                data-cy="y-axis"
+                style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+              >
+                <svg
+                  height="100%"
+                  width="50"
+                >
+                  <g
+                    class="y-axis__ordinate"
+                    fill="none"
+                    font-family="sans-serif"
+                    font-size="10"
+                    height="100%"
+                    text-anchor="end"
+                    transform="translate(49,0)"
+                  >
+                    <path
+                      class="domain"
+                      d="M0.5,0.5V0.5"
+                      stroke="currentColor"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>,
+            "context": {},
+            "current": [Circular],
+            "effectDuration": 0,
+            "entangledLanes": 0,
+            "entanglements": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+            ],
+            "eventTimes": [
+              0,
+              0,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+            ],
+            "expirationTimes": [
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+            ],
+            "expiredLanes": 0,
+            "finishedLanes": 0,
+            "finishedWork": null,
+            "identifierPrefix": "",
+            "memoizedUpdaters": Set {},
+            "mutableReadLanes": 0,
+            "mutableSourceEagerHydrationData": null,
+            "onRecoverableError": [Function],
+            "passiveEffectDuration": 0,
+            "pendingChildren": null,
+            "pendingContext": null,
+            "pendingLanes": 0,
+            "pendingUpdatersLaneMap": [
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+            ],
+            "pingCache": null,
+            "pingedLanes": 0,
+            "suspendedLanes": 0,
+            "tag": 1,
+            "timeoutHandle": -1,
+          },
+          "subtreeFlags": 0,
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": {
+            "baseState": {
+              "cache": null,
+              "element": null,
+              "isDehydrated": false,
+              "pendingSuspenseBoundaries": null,
+              "transitions": null,
+            },
+            "effects": null,
+            "firstBaseUpdate": {
+              "callback": null,
+              "eventTime": 5523.313592,
+              "lane": 16,
+              "next": null,
+              "payload": {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  onRenderCb={[Function]}
+                  props={
+                    {
+                      "getIsZooming": [MockFunction] {
+                        "calls": [
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                        ],
+                        "results": [
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                        ],
+                      },
+                      "heightInPercentage": 100,
+                      "maxAmplitude": 100,
+                      "minAmplitude": undefined,
+                      "yAxisTicks": [
+                        0,
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                      ],
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastBaseUpdate": {
+              "callback": null,
+              "eventTime": 5523.313592,
+              "lane": 16,
+              "next": null,
+              "payload": {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  onRenderCb={[Function]}
+                  props={
+                    {
+                      "getIsZooming": [MockFunction] {
+                        "calls": [
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                        ],
+                        "results": [
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                        ],
+                      },
+                      "heightInPercentage": 100,
+                      "maxAmplitude": 100,
+                      "minAmplitude": undefined,
+                      "yAxisTicks": [
+                        0,
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                      ],
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "shared": {
+              "interleaved": null,
+              "lanes": 0,
+              "pending": null,
+            },
+          },
+        },
+        "child": [Circular],
+        "childLanes": 0,
+        "deletions": null,
+        "dependencies": null,
+        "elementType": null,
+        "flags": 1024,
+        "index": 0,
+        "key": null,
+        "lanes": 0,
+        "memoizedProps": null,
+        "memoizedState": {
+          "cache": null,
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            onRenderCb={[Function]}
+            props={
+              {
+                "getIsZooming": [MockFunction] {
+                  "calls": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                  ],
+                  "results": [
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                  ],
+                },
+                "heightInPercentage": 100,
+                "maxAmplitude": 100,
+                "minAmplitude": undefined,
+                "yAxisTicks": [
+                  0,
+                  2,
+                  4,
+                  6,
+                  8,
+                  10,
+                ],
+              }
+            }
+            refProp={null}
+            wrappingComponentProps={null}
+          />,
+          "isDehydrated": false,
+          "pendingSuspenseBoundaries": null,
+          "transitions": null,
+        },
+        "mode": 1,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": FiberRootNode {
+          "_debugRootType": "createRoot()",
+          "callbackNode": null,
+          "callbackPriority": 0,
+          "containerInfo": <div>
+            <div
+              class="y-axis"
+              data-cy="y-axis"
+              style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+            >
+              <svg
+                height="100%"
+                width="50"
+              >
+                <g
+                  class="y-axis__ordinate"
+                  fill="none"
+                  font-family="sans-serif"
+                  font-size="10"
+                  height="100%"
+                  text-anchor="end"
+                  transform="translate(49,0)"
+                >
+                  <path
+                    class="domain"
+                    d="M0.5,0.5V0.5"
+                    stroke="currentColor"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>,
+          "context": {},
+          "current": [Circular],
+          "effectDuration": 0,
+          "entangledLanes": 0,
+          "entanglements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+          ],
+          "eventTimes": [
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+          ],
+          "expirationTimes": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+          ],
+          "expiredLanes": 0,
+          "finishedLanes": 0,
+          "finishedWork": null,
+          "identifierPrefix": "",
+          "memoizedUpdaters": Set {},
+          "mutableReadLanes": 0,
+          "mutableSourceEagerHydrationData": null,
+          "onRecoverableError": [Function],
+          "passiveEffectDuration": 0,
+          "pendingChildren": null,
+          "pendingContext": null,
+          "pendingLanes": 0,
+          "pendingUpdatersLaneMap": [
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+          ],
+          "pingCache": null,
+          "pingedLanes": 0,
+          "suspendedLanes": 0,
+          "tag": 1,
+          "timeoutHandle": -1,
+        },
+        "subtreeFlags": 6291975,
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": {
+          "baseState": {
+            "cache": null,
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              onRenderCb={[Function]}
+              props={
+                {
+                  "getIsZooming": [MockFunction] {
+                    "calls": [
+                      [],
+                      [],
+                      [],
+                      [],
+                      [],
+                      [],
+                      [],
+                    ],
+                    "results": [
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                    ],
+                  },
+                  "heightInPercentage": 100,
+                  "maxAmplitude": 100,
+                  "minAmplitude": undefined,
+                  "yAxisTicks": [
+                    0,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                  ],
+                }
+              }
+              refProp={null}
+              wrappingComponentProps={null}
+            />,
+            "isDehydrated": false,
+            "pendingSuspenseBoundaries": null,
+            "transitions": null,
+          },
+          "effects": null,
+          "firstBaseUpdate": null,
+          "lastBaseUpdate": null,
+          "shared": {
+            "interleaved": null,
+            "lanes": 0,
+            "pending": null,
+          },
+        },
+      },
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": WrapperComponent {
+        "_reactInternalInstance": {},
+        "_reactInternals": [Circular],
+        "context": {},
+        "props": {
+          "Component": [Function],
+          "context": null,
+          "onRenderCb": [Function],
+          "props": {
+            "getIsZooming": [MockFunction] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+              ],
+            },
+            "heightInPercentage": 100,
+            "maxAmplitude": 100,
+            "minAmplitude": undefined,
+            "yAxisTicks": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+            ],
+          },
+          "refProp": null,
+          "wrappingComponentProps": null,
+        },
+        "refs": {},
+        "state": {
+          "context": null,
+          "mount": true,
+          "props": {
+            "getIsZooming": [MockFunction] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+              ],
+            },
+            "heightInPercentage": 100,
+            "maxAmplitude": 100,
+            "minAmplitude": undefined,
+            "yAxisTicks": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+            ],
+          },
+          "wrappingComponentProps": null,
+        },
+        "updater": {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "subtreeFlags": 6291973,
+      "tag": 1,
+      "treeBaseDuration": 0,
+      "type": [Function],
+      "updateQueue": {
+        "baseState": {
+          "context": null,
+          "mount": true,
+          "props": {
+            "getIsZooming": [MockFunction] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+              ],
+            },
+            "heightInPercentage": 100,
+            "maxAmplitude": 100,
+            "minAmplitude": undefined,
+            "yAxisTicks": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+            ],
+          },
+          "wrappingComponentProps": null,
+        },
+        "effects": null,
+        "firstBaseUpdate": null,
+        "lastBaseUpdate": null,
+        "shared": {
+          "interleaved": null,
+          "lanes": 0,
+          "pending": null,
+        },
+      },
+    },
+    "_debugSource": null,
+    "actualDuration": 0,
+    "actualStartTime": -1,
+    "alternate": null,
+    "child": FiberNode {
+      "_debugHookTypes": null,
+      "_debugNeedsRemount": false,
+      "_debugOwner": [Circular],
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": null,
+      "childLanes": 0,
+      "deletions": null,
+      "dependencies": null,
+      "elementType": "div",
+      "flags": 2097664,
+      "index": 0,
+      "key": null,
+      "lanes": 0,
+      "memoizedProps": {
+        "className": "y-axis",
+        "data-cy": "y-axis",
+        "data-max": undefined,
+        "data-min": undefined,
+        "style": {
+          "height": "calc(100% - 4px)",
+          "margin": "2px 0 2px 0",
+        },
+      },
+      "memoizedState": null,
+      "mode": 1,
+      "pendingProps": {
+        "className": "y-axis",
+        "data-cy": "y-axis",
+        "data-max": undefined,
+        "data-min": undefined,
+        "style": {
+          "height": "calc(100% - 4px)",
+          "margin": "2px 0 2px 0",
+        },
+      },
+      "ref": [Function],
+      "return": [Circular],
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": <div
+        class="y-axis"
+        data-cy="y-axis"
+        style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+      >
+        <svg
+          height="100%"
+          width="50"
+        >
+          <g
+            class="y-axis__ordinate"
+            fill="none"
+            font-family="sans-serif"
+            font-size="10"
+            height="100%"
+            text-anchor="end"
+            transform="translate(49,0)"
+          >
+            <path
+              class="domain"
+              d="M0.5,0.5V0.5"
+              stroke="currentColor"
+            />
+          </g>
+        </svg>
+      </div>,
+      "subtreeFlags": 0,
+      "tag": 5,
+      "treeBaseDuration": 0,
+      "type": "div",
+      "updateQueue": null,
+    },
+    "childLanes": 0,
+    "deletions": null,
+    "dependencies": null,
+    "elementType": [Function],
+    "flags": 4194309,
+    "index": 0,
+    "key": null,
+    "lanes": 0,
+    "memoizedProps": {
+      "getIsZooming": [MockFunction] {
+        "calls": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+        ],
+        "results": [
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+        ],
+      },
+      "heightInPercentage": 100,
+      "maxAmplitude": 100,
+      "minAmplitude": undefined,
+      "yAxisTicks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+      ],
+    },
+    "memoizedState": {},
+    "mode": 1,
+    "pendingProps": {
+      "getIsZooming": [MockFunction] {
+        "calls": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+        ],
+        "results": [
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+          {
+            "type": "return",
+            "value": false,
+          },
+        ],
+      },
+      "heightInPercentage": 100,
+      "maxAmplitude": 100,
+      "minAmplitude": undefined,
+      "yAxisTicks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+      ],
+    },
+    "ref": null,
+    "return": FiberNode {
+      "_debugHookTypes": null,
+      "_debugNeedsRemount": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": [Circular],
+      "childLanes": 0,
+      "deletions": null,
+      "dependencies": null,
+      "elementType": [Function],
+      "flags": 4194309,
+      "index": 0,
+      "key": null,
+      "lanes": 0,
+      "memoizedProps": {
+        "Component": [Function],
+        "context": null,
+        "onRenderCb": [Function],
+        "props": {
+          "getIsZooming": [MockFunction] {
+            "calls": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+            ],
+            "results": [
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+            ],
+          },
+          "heightInPercentage": 100,
+          "maxAmplitude": 100,
+          "minAmplitude": undefined,
+          "yAxisTicks": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+          ],
+        },
+        "refProp": null,
+        "wrappingComponentProps": null,
+      },
+      "memoizedState": {
+        "context": null,
+        "mount": true,
+        "props": {
+          "getIsZooming": [MockFunction] {
+            "calls": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+            ],
+            "results": [
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+            ],
+          },
+          "heightInPercentage": 100,
+          "maxAmplitude": 100,
+          "minAmplitude": undefined,
+          "yAxisTicks": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+          ],
+        },
+        "wrappingComponentProps": null,
+      },
+      "mode": 1,
+      "pendingProps": {
+        "Component": [Function],
+        "context": null,
+        "onRenderCb": [Function],
+        "props": {
+          "getIsZooming": [MockFunction] {
+            "calls": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+            ],
+            "results": [
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+              {
+                "type": "return",
+                "value": false,
+              },
+            ],
+          },
+          "heightInPercentage": 100,
+          "maxAmplitude": 100,
+          "minAmplitude": undefined,
+          "yAxisTicks": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+          ],
+        },
+        "refProp": null,
+        "wrappingComponentProps": null,
+      },
+      "ref": null,
+      "return": FiberNode {
+        "_debugHookTypes": null,
+        "_debugNeedsRemount": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": FiberNode {
+          "_debugHookTypes": null,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": [Circular],
+          "child": null,
+          "childLanes": 0,
+          "deletions": null,
+          "dependencies": null,
+          "elementType": null,
+          "flags": 0,
+          "index": 0,
+          "key": null,
+          "lanes": 16,
+          "memoizedProps": null,
+          "memoizedState": {
+            "cache": null,
+            "element": null,
+            "isDehydrated": false,
+            "pendingSuspenseBoundaries": null,
+            "transitions": null,
+          },
+          "mode": 1,
+          "pendingProps": null,
+          "ref": null,
+          "return": null,
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": FiberRootNode {
+            "_debugRootType": "createRoot()",
+            "callbackNode": null,
+            "callbackPriority": 0,
+            "containerInfo": <div>
+              <div
+                class="y-axis"
+                data-cy="y-axis"
+                style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+              >
+                <svg
+                  height="100%"
+                  width="50"
+                >
+                  <g
+                    class="y-axis__ordinate"
+                    fill="none"
+                    font-family="sans-serif"
+                    font-size="10"
+                    height="100%"
+                    text-anchor="end"
+                    transform="translate(49,0)"
+                  >
+                    <path
+                      class="domain"
+                      d="M0.5,0.5V0.5"
+                      stroke="currentColor"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>,
+            "context": {},
+            "current": [Circular],
+            "effectDuration": 0,
+            "entangledLanes": 0,
+            "entanglements": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+            ],
+            "eventTimes": [
+              0,
+              0,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+            ],
+            "expirationTimes": [
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1,
+            ],
+            "expiredLanes": 0,
+            "finishedLanes": 0,
+            "finishedWork": null,
+            "identifierPrefix": "",
+            "memoizedUpdaters": Set {},
+            "mutableReadLanes": 0,
+            "mutableSourceEagerHydrationData": null,
+            "onRecoverableError": [Function],
+            "passiveEffectDuration": 0,
+            "pendingChildren": null,
+            "pendingContext": null,
+            "pendingLanes": 0,
+            "pendingUpdatersLaneMap": [
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+              Set {},
+            ],
+            "pingCache": null,
+            "pingedLanes": 0,
+            "suspendedLanes": 0,
+            "tag": 1,
+            "timeoutHandle": -1,
+          },
+          "subtreeFlags": 0,
+          "tag": 3,
+          "treeBaseDuration": 0,
+          "type": null,
+          "updateQueue": {
+            "baseState": {
+              "cache": null,
+              "element": null,
+              "isDehydrated": false,
+              "pendingSuspenseBoundaries": null,
+              "transitions": null,
+            },
+            "effects": null,
+            "firstBaseUpdate": {
+              "callback": null,
+              "eventTime": 5523.313592,
+              "lane": 16,
+              "next": null,
+              "payload": {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  onRenderCb={[Function]}
+                  props={
+                    {
+                      "getIsZooming": [MockFunction] {
+                        "calls": [
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                        ],
+                        "results": [
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                        ],
+                      },
+                      "heightInPercentage": 100,
+                      "maxAmplitude": 100,
+                      "minAmplitude": undefined,
+                      "yAxisTicks": [
+                        0,
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                      ],
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "lastBaseUpdate": {
+              "callback": null,
+              "eventTime": 5523.313592,
+              "lane": 16,
+              "next": null,
+              "payload": {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  onRenderCb={[Function]}
+                  props={
+                    {
+                      "getIsZooming": [MockFunction] {
+                        "calls": [
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                          [],
+                        ],
+                        "results": [
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                          {
+                            "type": "return",
+                            "value": false,
+                          },
+                        ],
+                      },
+                      "heightInPercentage": 100,
+                      "maxAmplitude": 100,
+                      "minAmplitude": undefined,
+                      "yAxisTicks": [
+                        0,
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                      ],
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "tag": 0,
+            },
+            "shared": {
+              "interleaved": null,
+              "lanes": 0,
+              "pending": null,
+            },
+          },
+        },
+        "child": [Circular],
+        "childLanes": 0,
+        "deletions": null,
+        "dependencies": null,
+        "elementType": null,
+        "flags": 1024,
+        "index": 0,
+        "key": null,
+        "lanes": 0,
+        "memoizedProps": null,
+        "memoizedState": {
+          "cache": null,
+          "element": <WrapperComponent
+            Component={[Function]}
+            context={null}
+            onRenderCb={[Function]}
+            props={
+              {
+                "getIsZooming": [MockFunction] {
+                  "calls": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                  ],
+                  "results": [
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                    {
+                      "type": "return",
+                      "value": false,
+                    },
+                  ],
+                },
+                "heightInPercentage": 100,
+                "maxAmplitude": 100,
+                "minAmplitude": undefined,
+                "yAxisTicks": [
+                  0,
+                  2,
+                  4,
+                  6,
+                  8,
+                  10,
+                ],
+              }
+            }
+            refProp={null}
+            wrappingComponentProps={null}
+          />,
+          "isDehydrated": false,
+          "pendingSuspenseBoundaries": null,
+          "transitions": null,
+        },
+        "mode": 1,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": FiberRootNode {
+          "_debugRootType": "createRoot()",
+          "callbackNode": null,
+          "callbackPriority": 0,
+          "containerInfo": <div>
+            <div
+              class="y-axis"
+              data-cy="y-axis"
+              style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+            >
+              <svg
+                height="100%"
+                width="50"
+              >
+                <g
+                  class="y-axis__ordinate"
+                  fill="none"
+                  font-family="sans-serif"
+                  font-size="10"
+                  height="100%"
+                  text-anchor="end"
+                  transform="translate(49,0)"
+                >
+                  <path
+                    class="domain"
+                    d="M0.5,0.5V0.5"
+                    stroke="currentColor"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>,
+          "context": {},
+          "current": [Circular],
+          "effectDuration": 0,
+          "entangledLanes": 0,
+          "entanglements": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+          ],
+          "eventTimes": [
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+          ],
+          "expirationTimes": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+          ],
+          "expiredLanes": 0,
+          "finishedLanes": 0,
+          "finishedWork": null,
+          "identifierPrefix": "",
+          "memoizedUpdaters": Set {},
+          "mutableReadLanes": 0,
+          "mutableSourceEagerHydrationData": null,
+          "onRecoverableError": [Function],
+          "passiveEffectDuration": 0,
+          "pendingChildren": null,
+          "pendingContext": null,
+          "pendingLanes": 0,
+          "pendingUpdatersLaneMap": [
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+            Set {},
+          ],
+          "pingCache": null,
+          "pingedLanes": 0,
+          "suspendedLanes": 0,
+          "tag": 1,
+          "timeoutHandle": -1,
+        },
+        "subtreeFlags": 6291975,
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": {
+          "baseState": {
+            "cache": null,
+            "element": <WrapperComponent
+              Component={[Function]}
+              context={null}
+              onRenderCb={[Function]}
+              props={
+                {
+                  "getIsZooming": [MockFunction] {
+                    "calls": [
+                      [],
+                      [],
+                      [],
+                      [],
+                      [],
+                      [],
+                      [],
+                    ],
+                    "results": [
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                      {
+                        "type": "return",
+                        "value": false,
+                      },
+                    ],
+                  },
+                  "heightInPercentage": 100,
+                  "maxAmplitude": 100,
+                  "minAmplitude": undefined,
+                  "yAxisTicks": [
+                    0,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                  ],
+                }
+              }
+              refProp={null}
+              wrappingComponentProps={null}
+            />,
+            "isDehydrated": false,
+            "pendingSuspenseBoundaries": null,
+            "transitions": null,
+          },
+          "effects": null,
+          "firstBaseUpdate": null,
+          "lastBaseUpdate": null,
+          "shared": {
+            "interleaved": null,
+            "lanes": 0,
+            "pending": null,
+          },
+        },
+      },
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": WrapperComponent {
+        "_reactInternalInstance": {},
+        "_reactInternals": [Circular],
+        "context": {},
+        "props": {
+          "Component": [Function],
+          "context": null,
+          "onRenderCb": [Function],
+          "props": {
+            "getIsZooming": [MockFunction] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+              ],
+            },
+            "heightInPercentage": 100,
+            "maxAmplitude": 100,
+            "minAmplitude": undefined,
+            "yAxisTicks": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+            ],
+          },
+          "refProp": null,
+          "wrappingComponentProps": null,
+        },
+        "refs": {},
+        "state": {
+          "context": null,
+          "mount": true,
+          "props": {
+            "getIsZooming": [MockFunction] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+              ],
+            },
+            "heightInPercentage": 100,
+            "maxAmplitude": 100,
+            "minAmplitude": undefined,
+            "yAxisTicks": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+            ],
+          },
+          "wrappingComponentProps": null,
+        },
+        "updater": {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "subtreeFlags": 6291973,
+      "tag": 1,
+      "treeBaseDuration": 0,
+      "type": [Function],
+      "updateQueue": {
+        "baseState": {
+          "context": null,
+          "mount": true,
+          "props": {
+            "getIsZooming": [MockFunction] {
+              "calls": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+                {
+                  "type": "return",
+                  "value": false,
+                },
+              ],
+            },
+            "heightInPercentage": 100,
+            "maxAmplitude": 100,
+            "minAmplitude": undefined,
+            "yAxisTicks": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+            ],
+          },
+          "wrappingComponentProps": null,
+        },
+        "effects": null,
+        "firstBaseUpdate": null,
+        "lastBaseUpdate": null,
+        "shared": {
+          "interleaved": null,
+          "lanes": 0,
+          "pending": null,
+        },
+      },
+    },
+    "selfBaseDuration": 0,
+    "sibling": null,
+    "stateNode": [Circular],
+    "subtreeFlags": 2097664,
+    "tag": 1,
+    "treeBaseDuration": 0,
+    "type": [Function],
+    "updateQueue": {
+      "baseState": {},
+      "effects": null,
+      "firstBaseUpdate": null,
+      "lastBaseUpdate": null,
+      "shared": {
+        "interleaved": null,
+        "lanes": 0,
+        "pending": null,
+      },
+    },
+  },
+  "axisRef": <div
+    class="y-axis"
+    data-cy="y-axis"
+    style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+  >
+    <svg
+      height="100%"
+      width="50"
+    >
+      <g
+        class="y-axis__ordinate"
+        fill="none"
+        font-family="sans-serif"
+        font-size="10"
+        height="100%"
+        text-anchor="end"
+        transform="translate(49,0)"
+      >
+        <path
+          class="domain"
+          d="M0.5,0.5V0.5"
+          stroke="currentColor"
+        />
+      </g>
+    </svg>
+  </div>,
+  "calcAxisRange": [Function],
+  "context": {},
+  "display": [Function],
+  "drawAxis": [Function],
+  "handleRef": [Function],
+  "props": {
+    "getIsZooming": [MockFunction] {
+      "calls": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+      ],
+      "results": [
+        {
+          "type": "return",
+          "value": false,
+        },
+        {
+          "type": "return",
+          "value": false,
+        },
+        {
+          "type": "return",
+          "value": false,
+        },
+        {
+          "type": "return",
+          "value": false,
+        },
+        {
+          "type": "return",
+          "value": false,
+        },
+        {
+          "type": "return",
+          "value": false,
+        },
+        {
+          "type": "return",
+          "value": false,
+        },
+      ],
+    },
+    "heightInPercentage": 100,
+    "maxAmplitude": 100,
+    "minAmplitude": undefined,
+    "yAxisTicks": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+    ],
+  },
+  "refs": {},
+  "resizeObserver": {
+    "disconnect": [MockFunction],
+    "observe": [MockFunction] {
+      "calls": [
+        [
+          <div
+            class="y-axis"
+            data-cy="y-axis"
+            style="height: calc(100% - 4px); margin: 2px 0px 2px 0px;"
+          >
+            <svg
+              height="100%"
+              width="50"
+            >
+              <g
+                class="y-axis__ordinate"
+                fill="none"
+                font-family="sans-serif"
+                font-size="10"
+                height="100%"
+                text-anchor="end"
+                transform="translate(49,0)"
+              >
+                <path
+                  class="domain"
+                  d="M0.5,0.5V0.5"
+                  stroke="currentColor"
+                />
+              </g>
+            </svg>
+          </div>,
+        ],
+      ],
+      "results": [
+        {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "unobserve": [MockFunction],
+  },
+  "state": {},
+  "svgAxis": Selection {
+    "_groups": [
+      [
+        <g
+          class="y-axis__ordinate"
+          fill="none"
+          font-family="sans-serif"
+          font-size="10"
+          height="100%"
+          text-anchor="end"
+          transform="translate(49,0)"
+        >
+          <path
+            class="domain"
+            d="M0.5,0.5V0.5"
+            stroke="currentColor"
+          />
+        </g>,
+      ],
+    ],
+    "_parents": [
+      null,
+    ],
+  },
+  "updater": {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
+
+exports[`Weavess Y Axis updates when display is called 1`] = `
+<YAxis
+  heightInPercentage={100}
+  maxAmplitude={100}
+  minAmplitude={0}
+  yAxisTicks={
+    [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+    ]
+  }
+>
+  <div
+    className="y-axis"
+    data-cy="y-axis"
+    data-max={100}
+    data-min={0}
+    style={
+      {
+        "height": "calc(100% - 4px)",
+        "margin": "2px 0 2px 0",
+      }
+    }
+  />
+</YAxis>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingSpinnerOverflowMenuToolbarItem LoadingSpinnerOverflowMenuToolbarItem renders 1`] = `
+<div>
+  <li
+    class=""
+    role="none"
+  >
+    <a
+      class="bp4-menu-item bp4-popover2-dismiss"
+      role="menuitem"
+      tabindex="0"
+    >
+      <div
+        class="bp4-fill bp4-text-overflow-ellipsis"
+      >
+        Loading 1 undefined
+      </div>
+    </a>
+  </li>
+</div>
+`;
+
+exports[`LoadingSpinnerOverflowMenuToolbarItem LoadingSpinnerOverflowMenuToolbarItem renders empty due to incorrect type 1`] = `<div />`;

@@ -28,7 +28,6 @@ workflow.
 | frameworks-configuration-service            | Serves processing configuration |
 | frameworks-osd-service                      | Object Storage and Distribution (OSD) service |
 | interactive-analysis-ui                     | Serves the GMS user interface |
-| mock-data-server                            | Support running GMS user interface without making requests to backend Java services  |
 | signal-detection-manager-service            | Service that provides signal detection query, storage and distribution within GMS  |
 | station-definition-service                  | Service that defines procession station definitions |
 | mock-waveform-service                       | Service that generates mock waveform data for UI display and processing  |

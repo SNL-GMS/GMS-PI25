@@ -257,27 +257,6 @@ minio-test-reports:
       mountPath: "/data"
       type: "emptyDir"
 
-mock-data-server:
-  imageName: "gms-common/mock-data-server"
-  metadata:
-    description: "Provides a mock data server for IAN"
-    labels:
-      - "ian"
-    type: "harness"
-  network:
-    ingress:
-      3000:
-        path: "/{{ .appName }}"
-    service:
-      3000:
-        name: "http-web"
-  resources:
-    requests:
-      cpu: "1m"
-      memory: "50Mi"
-    limits:
-      memory: "100Mi"
-
 mock-waveform-service:
   imageName: "gms-common/mock-waveform-application"
   metadata:

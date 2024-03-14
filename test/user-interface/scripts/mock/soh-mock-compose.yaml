@@ -43,12 +43,6 @@ services:
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
 
-  mock-data-server:
-    platform: linux/amd64
-    image: '${CI_DOCKER_REGISTRY}/gms-common/mock-data-server:${VERSION:-develop}'
-    ports:
-      - '3001:3000'
-
 networks:
   kafka-net:
     name: kafka-net

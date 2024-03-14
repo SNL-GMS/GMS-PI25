@@ -14,13 +14,6 @@ services:
       GMS_ETCD_ROOT_PASSWORD: FINAL-PASSWORD
     networks:
       - kafka-net
-  mock-data-server:
-    platform: linux/amd64
-    image: '${CI_DOCKER_REGISTRY}/gms-common/mock-data-server:${MOCK_SERVER_VERSION:-develop}'
-    ports:
-      - '3001:3000'
-    networks:
-      - kafka-net
   mock-signal-detection:
     platform: linux/amd64
     image: '${CI_DOCKER_REGISTRY}/gms-common/mock-signal-detection-application:${MOCK_SIGNAL_DETECTION_VERSION:-develop}'

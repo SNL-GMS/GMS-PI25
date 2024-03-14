@@ -24,7 +24,6 @@ eslint-report.json
 .tsbuildinfo
 .tsbuildinfo-test
 settings.json
-packages/mock-data-server/mock-data-server.log
 junit.xml
 
 # Whitelist files from .vscode

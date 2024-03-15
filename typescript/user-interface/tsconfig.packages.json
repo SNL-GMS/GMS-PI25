@@ -17,9 +17,6 @@
       "path": "./packages/integration-tests/tsconfig-build.json"
     },
     {
-      "path": "./packages/mock-data-server/tsconfig-build.json"
-    },
-    {
       "path": "./packages/ui-app/tsconfig-build.json"
     },
     {

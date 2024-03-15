@@ -189,11 +189,10 @@ build_typescript_inside() {
 
     cd ${REPO_PATH}/typescript/user-interface
     {
-       time yarn install --immutable --immutable-cache && \
+       time yarn install --immutable && \
        time yarn build -f && \
        time GMS_UI_MODE=ian GMS_SW=true yarn lerna run bundle --scope @gms/ui-app --stream && \
        time yarn lerna run bundle:prod --scope @gms/api-gateway --stream && \
-       time yarn lerna run bundle:prod --scope @gms/mock-data-server --stream && \
        time make all
     }; chown_build_files
 }
